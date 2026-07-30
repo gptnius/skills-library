@@ -46,6 +46,10 @@ PACKS = {
  "addyosmani-agent-skills": ("Addy Osmani (Google/Chrome) — 24-skill production SWE lifecycle: code-review, TDD, debugging, git-workflow, docs+ADRs, security-hardening, CI/CD, observability, API design, performance, context-engineering, spec-driven. Ships SessionStart hook + scripts (quarantined).", True),
  "superpowers": ("Jesse Vincent (obra) — the most-starred Claude skills repo: TDD, systematic-debugging, requesting/receiving code-review, git-worktrees, plan writing/execution, subagent-driven development, verification-before-completion. Ships 38 shell scripts + SessionStart hook + per-harness plugin dirs (quarantined).", True),
  "mattpocock-engineering": ("Matt Pocock (Total TypeScript) — engineering skills: code-review, tdd, diagnosing-bugs, domain-modeling, codebase-design, improve-codebase-architecture, resolving-merge-conflicts, to-spec, to-tickets, triage. Ships shell scripts incl. a git-guardrail hook (quarantined).", True),
+ "compose-performance": ("Jaewoong Eum (skydoves, GDE Android/Kotlin) — 26 Jetpack Compose performance skills: stability, recomposition, lazy lists, modifiers, side-effects, baseline profiles, R8, hot-reload, + an audit orchestrator. Install script quarantined.", True),
+ "dart-official": ("Dart team (official) — 12 Dart skills: unit tests, CLI apps, coverage, runtime errors, mocks, static analysis, FFI/ffigen, pattern matching. Clean, BSD-3.", False),
+ "unity-official": ("Unity Technologies (official) — Unity skills incl. implement-in-app-purchases (IAP) and levelplay-unity-integration (ad mediation), new-unity-project, unity-cli, package management. ⚠ Unity Companion License (non-OSI): use restricted to Unity-engine projects.", True),
+ "unity-shaders": ("Anil Devran — 7 mobile-GPU Unity shader skills: mobile-shader-optimization (TBDR/Mali/Adreno), post-processing, URP HLSL templates, WebGL constraints, texture packing/variant stripping. Clean MIT markdown; one-shot snapshot (unmaintained).", False),
 }
 
 def parse_frontmatter(path):

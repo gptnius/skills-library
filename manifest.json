@@ -1,8 +1,8 @@
 {
   "generated": "2026-07-30",
   "library_path": "~/Desktop/Skills-Library",
-  "total_top_level_entries": 144,
-  "total_skills": 413,
+  "total_top_level_entries": 163,
+  "total_skills": 479,
   "categories": [
     {
       "key": "00-direction",
@@ -67,12 +67,12 @@
     {
       "key": "12-mobile",
       "title": "Mobile — React Native/Expo, app stores, ASO",
-      "skill_count": 29
+      "skill_count": 81
     },
     {
       "key": "13-games",
       "title": "Games — web/native/mobile game dev, game feel, generative (packs; mostly per-project)",
-      "skill_count": 171
+      "skill_count": 185
     },
     {
       "key": "14-style-directions",
@@ -1462,6 +1462,19 @@
       "purpose": "Assesses whether and how an existing mobile product should migrate to React Native. Use when auditing one or more product repositories for migration readiness, including products whose iOS, Android, and other clients live in separate directories or repositories; choosing brownfield, greenfield, or a checkpoint-based path; defining a representative trial; or preparing a baseline and ROI decision before implementation. When product scope or material evidence is unavailable, grills the stakeholder with exactly one question per turn instead of sending a questionnaire."
     },
     {
+      "name": "compose-performance",
+      "category": "12-mobile",
+      "kind": "pack",
+      "path": "skills/12-mobile/compose-performance",
+      "skill_count": 26,
+      "source_url": "https://github.com/skydoves/compose-performance-skills",
+      "license": "Apache-2.0",
+      "author": "Jaewoong Eum (skydoves, GDE Android/Kotlin)",
+      "always_on": false,
+      "caution": true,
+      "purpose": "Jaewoong Eum (skydoves, GDE Android/Kotlin) — 26 Jetpack Compose performance skills: stability, recomposition, lazy lists, modifiers, side-effects, baseline profiles, R8, hot-reload, + an audit orchestrator. Install script quarantined."
+    },
+    {
       "name": "create-react-native-library",
       "category": "12-mobile",
       "kind": "skill",
@@ -1475,6 +1488,19 @@
       "purpose": "Scaffolds React Native libraries with create-react-native-library for standalone libraries or local native modules and views. Use when creating or working on React Native libraries or adding native functionality in an existing app."
     },
     {
+      "name": "dart-official",
+      "category": "12-mobile",
+      "kind": "pack",
+      "path": "skills/12-mobile/dart-official",
+      "skill_count": 12,
+      "source_url": "https://github.com/dart-lang/skills",
+      "license": "BSD-3-Clause",
+      "author": "Dart team (dart-lang, official)",
+      "always_on": false,
+      "caution": false,
+      "purpose": "Dart team (official) — 12 Dart skills: unit tests, CLI apps, coverage, runtime errors, mocks, static analysis, FFI/ffigen, pattern matching. Clean, BSD-3."
+    },
+    {
       "name": "expo",
       "category": "12-mobile",
       "kind": "pack",
@@ -1486,6 +1512,162 @@
       "always_on": false,
       "caution": true,
       "purpose": "Official Expo team — React Native/Expo/EAS: expo-router, expo-ui/native-ui, data-fetching, native modules, EAS app-stores/workflows. Ships build scripts + hooks + MCP dependency (quarantined)."
+    },
+    {
+      "name": "flutter-add-integration-test",
+      "category": "12-mobile",
+      "kind": "skill",
+      "path": "skills/12-mobile/flutter-add-integration-test",
+      "skill_count": 1,
+      "source_url": "https://github.com/flutter/agent-plugins",
+      "license": "BSD-3-Clause",
+      "author": "Flutter team (official)",
+      "always_on": false,
+      "caution": false,
+      "purpose": "Configures Flutter Driver for app interaction and converts MCP actions into permanent integration tests. Use when adding integration testing to a project, exploring UI components via MCP, or automating user flows with the integration_test package."
+    },
+    {
+      "name": "flutter-add-widget-preview",
+      "category": "12-mobile",
+      "kind": "skill",
+      "path": "skills/12-mobile/flutter-add-widget-preview",
+      "skill_count": 1,
+      "source_url": "https://github.com/flutter/agent-plugins",
+      "license": "BSD-3-Clause",
+      "author": "Flutter team (official)",
+      "always_on": false,
+      "caution": false,
+      "purpose": "Adds interactive widget previews to the project using the previews.dart system. Use when creating new UI components or updating existing screens to ensure consistent design and interactive testing."
+    },
+    {
+      "name": "flutter-add-widget-test",
+      "category": "12-mobile",
+      "kind": "skill",
+      "path": "skills/12-mobile/flutter-add-widget-test",
+      "skill_count": 1,
+      "source_url": "https://github.com/flutter/agent-plugins",
+      "license": "BSD-3-Clause",
+      "author": "Flutter team (official)",
+      "always_on": false,
+      "caution": false,
+      "purpose": "Implement a component-level test using `WidgetTester` to verify UI rendering and user interactions (tapping, scrolling, entering text). Use when validating that a specific widget displays correct data and responds to events as expected."
+    },
+    {
+      "name": "flutter-apply-architecture-best-practices",
+      "category": "12-mobile",
+      "kind": "skill",
+      "path": "skills/12-mobile/flutter-apply-architecture-best-practices",
+      "skill_count": 1,
+      "source_url": "https://github.com/flutter/agent-plugins",
+      "license": "BSD-3-Clause",
+      "author": "Flutter team (official)",
+      "always_on": false,
+      "caution": false,
+      "purpose": "Architects a Flutter application using the recommended layered approach (UI, Logic, Data). Use when structuring a new project or refactoring for scalability."
+    },
+    {
+      "name": "flutter-build-responsive-layout",
+      "category": "12-mobile",
+      "kind": "skill",
+      "path": "skills/12-mobile/flutter-build-responsive-layout",
+      "skill_count": 1,
+      "source_url": "https://github.com/flutter/agent-plugins",
+      "license": "BSD-3-Clause",
+      "author": "Flutter team (official)",
+      "always_on": false,
+      "caution": false,
+      "purpose": "Use `LayoutBuilder`, `MediaQuery`, or `Expanded/Flexible` to create a layout that adapts to different screen sizes. Use when you need the UI to look good on both mobile and tablet/desktop form factors."
+    },
+    {
+      "name": "flutter-fix-layout-issues",
+      "category": "12-mobile",
+      "kind": "skill",
+      "path": "skills/12-mobile/flutter-fix-layout-issues",
+      "skill_count": 1,
+      "source_url": "https://github.com/flutter/agent-plugins",
+      "license": "BSD-3-Clause",
+      "author": "Flutter team (official)",
+      "always_on": false,
+      "caution": false,
+      "purpose": "Fixes Flutter layout errors (overflows, unbounded constraints) using Dart and Flutter MCP tools. Use when addressing \"RenderFlex overflowed\", \"Vertical viewport was given unbounded height\", or similar layout issues."
+    },
+    {
+      "name": "flutter-implement-json-serialization",
+      "category": "12-mobile",
+      "kind": "skill",
+      "path": "skills/12-mobile/flutter-implement-json-serialization",
+      "skill_count": 1,
+      "source_url": "https://github.com/flutter/agent-plugins",
+      "license": "BSD-3-Clause",
+      "author": "Flutter team (official)",
+      "always_on": false,
+      "caution": false,
+      "purpose": "Create model classes with `fromJson` and `toJson` methods using `dart:convert`. Use when manually mapping JSON keys to class properties for simple data structures."
+    },
+    {
+      "name": "flutter-setup-declarative-routing",
+      "category": "12-mobile",
+      "kind": "skill",
+      "path": "skills/12-mobile/flutter-setup-declarative-routing",
+      "skill_count": 1,
+      "source_url": "https://github.com/flutter/agent-plugins",
+      "license": "BSD-3-Clause",
+      "author": "Flutter team (official)",
+      "always_on": false,
+      "caution": false,
+      "purpose": "Configure `MaterialApp.router` using a package like `go_router` for advanced URL-based navigation. Use when developing web applications or mobile apps that require specific deep linking and browser history support."
+    },
+    {
+      "name": "flutter-setup-localization",
+      "category": "12-mobile",
+      "kind": "skill",
+      "path": "skills/12-mobile/flutter-setup-localization",
+      "skill_count": 1,
+      "source_url": "https://github.com/flutter/agent-plugins",
+      "license": "BSD-3-Clause",
+      "author": "Flutter team (official)",
+      "always_on": false,
+      "caution": false,
+      "purpose": "Add `flutter_localizations` and `intl` dependencies, enable \"generate true\" in `pubspec.yaml`, and create an `l10n.yaml` configuration file. Use when initializing localization support for a new Flutter project."
+    },
+    {
+      "name": "flutter-tester",
+      "category": "12-mobile",
+      "kind": "skill",
+      "path": "skills/12-mobile/flutter-tester",
+      "skill_count": 1,
+      "source_url": "https://github.com/Harishwarrior/flutter-claude-skills",
+      "license": "MIT",
+      "author": "Harishwarrior",
+      "always_on": false,
+      "caution": false,
+      "purpose": "Use when creating, writing, fixing, or reviewing tests in a Flutter project. Covers unit tests, widget tests, integration tests, Riverpod provider testing, and Mockito mocking. Provides Given-When-Then patterns, layer isolation strategies, and test setup for GetIt, SharedPreferences, and FakeDatabase."
+    },
+    {
+      "name": "flutter-use-http-package",
+      "category": "12-mobile",
+      "kind": "skill",
+      "path": "skills/12-mobile/flutter-use-http-package",
+      "skill_count": 1,
+      "source_url": "https://github.com/flutter/agent-plugins",
+      "license": "BSD-3-Clause",
+      "author": "Flutter team (official)",
+      "always_on": false,
+      "caution": false,
+      "purpose": "Use the `http` package to execute GET, POST, PUT, or DELETE requests. Use when you need to fetch from or send data to a REST API."
+    },
+    {
+      "name": "owasp-mobile-security-checker",
+      "category": "12-mobile",
+      "kind": "skill",
+      "path": "skills/12-mobile/owasp-mobile-security-checker",
+      "skill_count": 1,
+      "source_url": "https://github.com/Harishwarrior/flutter-claude-skills",
+      "license": "MIT",
+      "author": "Harishwarrior",
+      "always_on": false,
+      "caution": false,
+      "purpose": "Use when performing security audits, vulnerability assessments, or compliance checks on Flutter or mobile applications. Covers OWASP Mobile Top 10 (2024) — hardcoded secrets (M1), insecure storage (M9), weak cryptography (M10), network issues (M5), and 6 more categories with automated scanners and remediation guidance."
     },
     {
       "name": "react-native-best-practices",
@@ -1540,6 +1722,32 @@
       "purpose": "Provides React Navigation UI patterns for stacks, tabs, drawers etc. Use when building navigation UIs with React Navigation, configuring headers, bottom sheets or handling safe areas and insets."
     },
     {
+      "name": "swiftui-expert",
+      "category": "12-mobile",
+      "kind": "skill",
+      "path": "skills/12-mobile/swiftui-expert",
+      "skill_count": 1,
+      "source_url": "https://github.com/AvdLee/SwiftUI-Agent-Skill",
+      "license": "MIT",
+      "author": "Antoine van der Lee (SwiftLee) & Omar Elsayed",
+      "always_on": false,
+      "caution": false,
+      "purpose": "Use when writing, reviewing, or refactoring SwiftUI code for iOS or macOS, including state management and `@Observable` data flow, view composition and invalidation/performance, lists and `ForEach` identity, environment usage, localization, animations, Liquid Glass adoption, migrating soft-deprecated APIs, or Instruments `.trace` capture/analysis for hangs, hitches, CPU hotspots, or excessive view updates."
+    },
+    {
+      "name": "swiftui-pro",
+      "category": "12-mobile",
+      "kind": "skill",
+      "path": "skills/12-mobile/swiftui-pro",
+      "skill_count": 1,
+      "source_url": "https://github.com/twostraws/SwiftUI-Agent-Skill",
+      "license": "MIT",
+      "author": "Paul Hudson (Hacking with Swift)",
+      "always_on": false,
+      "caution": false,
+      "purpose": "Comprehensively reviews SwiftUI code for best practices on modern APIs, maintainability, and performance. Use when reading, writing, or reviewing SwiftUI projects."
+    },
+    {
       "name": "upgrading-react-native",
       "category": "12-mobile",
       "kind": "skill",
@@ -1564,6 +1772,19 @@
       "always_on": false,
       "caution": false,
       "purpose": "gamedev-skills — markdown-only game-dev spine + router across Godot/Unity/Unreal/Phaser/PixiJS/Three.js/Bevy/pygame/LÖVE/Roblox + disciplines (shaders, procgen, game-feel, audio, UI/UX, physics, cameras, perf) + genres."
+    },
+    {
+      "name": "godot-dojo",
+      "category": "13-games",
+      "kind": "skill",
+      "path": "skills/13-games/godot-dojo",
+      "skill_count": 1,
+      "source_url": "https://github.com/Randroids-Dojo/skills",
+      "license": "MIT",
+      "author": "Randroids Dojo",
+      "always_on": false,
+      "caution": false,
+      "purpose": "Develop, test, build, and deploy Godot 4.x games. Use when working with Godot Engine, GDScript, GdUnit4 testing, PlayGodot automation, or exporting games to web/desktop. Covers CI/CD pipelines and deployment to Vercel/GitHub Pages/itch.io."
     },
     {
       "name": "godotprompter",
@@ -1616,6 +1837,32 @@
       "always_on": false,
       "caution": true,
       "purpose": "majidmanzarpour — playable browser Three.js games (director, gameplay systems, AAA graphics, game UI, audio, QA) with touch/mobile-viewport support. Ships install.sh + credential-probe + TS scaffold (quarantined)."
+    },
+    {
+      "name": "unity-official",
+      "category": "13-games",
+      "kind": "pack",
+      "path": "skills/13-games/unity-official",
+      "skill_count": 6,
+      "source_url": "https://github.com/Unity-Technologies/skills",
+      "license": "Unity Companion License (UCL) — NON-OSI: use restricted to Unity-engine projects; no competitive analysis",
+      "author": "Unity Technologies (official)",
+      "always_on": false,
+      "caution": true,
+      "purpose": "Unity Technologies (official) — Unity skills incl. implement-in-app-purchases (IAP) and levelplay-unity-integration (ad mediation), new-unity-project, unity-cli, package management. ⚠ Unity Companion License (non-OSI): use restricted to Unity-engine projects."
+    },
+    {
+      "name": "unity-shaders",
+      "category": "13-games",
+      "kind": "pack",
+      "path": "skills/13-games/unity-shaders",
+      "skill_count": 7,
+      "source_url": "https://github.com/adevra/unity-shader-agent-skills",
+      "license": "MIT",
+      "author": "Anil Devran (adevra)",
+      "always_on": false,
+      "caution": false,
+      "purpose": "Anil Devran — 7 mobile-GPU Unity shader skills: mobile-shader-optimization (TBDR/Mali/Adreno), post-processing, URP HLSL templates, WebGL constraints, texture packing/variant stripping. Clean MIT markdown; one-shot snapshot (unmaintained)."
     },
     {
       "name": "agency-grid-layout-minimal",

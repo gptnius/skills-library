@@ -146,6 +146,29 @@ one  callstack  skills/react-native-tv-best-practices            12-mobile  reac
 one  callstack  skills/react-navigation                          12-mobile  react-navigation
 one  haines     skills/aso                                       12-mobile  aso
 
+# ===== 12-mobile: NATIVE additions (SwiftUI / Compose / Flutter; research pass 3) =====
+one  swiftui-hudson    swiftui-pro                                    12-mobile  swiftui-pro
+one  swiftui-avdlee    swiftui-expert-skill                           12-mobile  swiftui-expert
+pack compose-perf      .                                              12-mobile  compose-performance
+pack dart-official     skills                                         12-mobile  dart-official
+one  flutter-official  skills/flutter-add-integration-test            12-mobile  flutter-add-integration-test
+one  flutter-official  skills/flutter-add-widget-preview              12-mobile  flutter-add-widget-preview
+one  flutter-official  skills/flutter-add-widget-test                 12-mobile  flutter-add-widget-test
+one  flutter-official  skills/flutter-apply-architecture-best-practices  12-mobile  flutter-apply-architecture-best-practices
+one  flutter-official  skills/flutter-build-responsive-layout         12-mobile  flutter-build-responsive-layout
+one  flutter-official  skills/flutter-fix-layout-issues               12-mobile  flutter-fix-layout-issues
+one  flutter-official  skills/flutter-implement-json-serialization    12-mobile  flutter-implement-json-serialization
+one  flutter-official  skills/flutter-setup-declarative-routing       12-mobile  flutter-setup-declarative-routing
+one  flutter-official  skills/flutter-setup-localization              12-mobile  flutter-setup-localization
+one  flutter-official  skills/flutter-use-http-package                12-mobile  flutter-use-http-package
+one  flutter-harish    flutter-tester                                 12-mobile  flutter-tester
+one  flutter-harish    owasp-mobile-security-checker                  12-mobile  owasp-mobile-security-checker
+
+# ===== 13-games: MOBILE-GAME additions (research pass 3) =====
+pack unity-official    skills                                         13-games   unity-official
+pack unity-shaders     skills                                         13-games   unity-shaders
+one  godot-dojo        plugins/godot                                  13-games   godot-dojo
+
 # ===== 13-games (packs; caution packs are per-project opt-in) =====
 pack mengto           agent-skills/game-development               13-games  mengto-game-dev
 pack awesome-gamedev  .                                           13-games  awesome-gamedev

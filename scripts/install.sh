@@ -55,6 +55,9 @@ quarantine_repo_root expo             plugins/expo/skills
 quarantine_repo_root addyosmani-eng   skills
 quarantine_repo_root superpowers      skills
 quarantine_repo_root mattpocock       skills/engineering
+quarantine_repo_root flutter-official skills
+quarantine_repo_root godot-dojo       plugins/godot
+quarantine_repo_root unity-official   skills
 
 # tidy: if MISSING.md has no entries, say so
 if ! grep -q '^- ' "$LIB/MISSING.md"; then

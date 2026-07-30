@@ -46,6 +46,15 @@ meta_url() { case "$1" in
   superpowers) echo "https://github.com/obra/superpowers";;
   getsentry) echo "https://github.com/getsentry/skills";;
   mattpocock) echo "https://github.com/mattpocock/skills";;
+  swiftui-hudson) echo "https://github.com/twostraws/SwiftUI-Agent-Skill";;
+  swiftui-avdlee) echo "https://github.com/AvdLee/SwiftUI-Agent-Skill";;
+  compose-perf) echo "https://github.com/skydoves/compose-performance-skills";;
+  dart-official) echo "https://github.com/dart-lang/skills";;
+  flutter-official) echo "https://github.com/flutter/agent-plugins";;
+  flutter-harish) echo "https://github.com/Harishwarrior/flutter-claude-skills";;
+  unity-official) echo "https://github.com/Unity-Technologies/skills";;
+  unity-shaders) echo "https://github.com/adevra/unity-shader-agent-skills";;
+  godot-dojo) echo "https://github.com/Randroids-Dojo/skills";;
   *) echo "unknown";; esac; }
 
 meta_author() { case "$1" in
@@ -77,12 +86,25 @@ meta_author() { case "$1" in
   superpowers) echo "Jesse Vincent (obra)";;
   getsentry) echo "Sentry (getsentry, official)";;
   mattpocock) echo "Matt Pocock (Total TypeScript)";;
+  swiftui-hudson) echo "Paul Hudson (Hacking with Swift)";;
+  swiftui-avdlee) echo "Antoine van der Lee (SwiftLee) & Omar Elsayed";;
+  compose-perf) echo "Jaewoong Eum (skydoves, GDE Android/Kotlin)";;
+  dart-official) echo "Dart team (dart-lang, official)";;
+  flutter-official) echo "Flutter team (official)";;
+  flutter-harish) echo "Harishwarrior";;
+  unity-official) echo "Unity Technologies (official)";;
+  unity-shaders) echo "Anil Devran (adevra)";;
+  godot-dojo) echo "Randroids Dojo";;
   *) echo "unknown";; esac; }
 
 meta_license() { case "$1" in
   mengto|haines|rampstack|krehel|emil|ibelick|lottie) echo "MIT";;
   design-tokens|expo|web-quality|callstack|threejs-graphics|godotprompter|threejs-game|webgl-anim|ui-sound) echo "MIT";;
   addyosmani-eng|superpowers|mattpocock) echo "MIT";;
+  swiftui-hudson|swiftui-avdlee|flutter-harish|unity-shaders|godot-dojo) echo "MIT";;
+  compose-perf) echo "Apache-2.0";;
+  dart-official|flutter-official) echo "BSD-3-Clause";;
+  unity-official) echo "Unity Companion License (UCL) — NON-OSI: use restricted to Unity-engine projects; no competitive analysis";;
   getsentry) echo "Apache-2.0";;
   karpathy) echo "MIT asserted (frontmatter/README/plugin.json) — NO LICENSE file (unconfirmed)";;
   awesome-gamedev) echo "Apache-2.0";;

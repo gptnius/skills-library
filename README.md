@@ -2,7 +2,7 @@
 
 A curated, documented, locally-accessible library of **AI agent skills** (`SKILL.md` packages) for building **websites, apps, and games** — UI, UX, copywriting, motion, 3D/WebGL, effects, design systems, data viz, mobile, game development, and the **software-engineering lifecycle** (code review, TDD, debugging, CI/CD, security, AI/LLM).
 
-**Built 2026-07-30 · 413 skills · 144 top-level entries · 19 categories · 28 vetted source repos.**
+**Built 2026-07-30 · 479 skills · 163 top-level entries · 19 categories · 37 vetted source repos.**
 
 Every skill was pulled from a named source repo, security-reviewed, and stripped of executable code before install. See [`INDEX.md`](INDEX.md) for the full catalog and [`WORKFLOW.md`](WORKFLOW.md) for which skill to reach for at each stage.
 
@@ -101,6 +101,22 @@ LIB="$HOME/Desktop/Skills-Library"   # or wherever you cloned this repo (scripts
 | [Yakoub-ai/phaser4-gamedev](https://github.com/Yakoub-ai/phaser4-gamedev) | Yakoub-ai | MIT per README (unconfirmed) | ⚠️ PreToolUse+SessionStart hooks + shell scripts quarantined |
 | [majidmanzarpour/threejs-game-skills](https://github.com/majidmanzarpour/threejs-game-skills) | majidmanzarpour | MIT | ⚠️ install.sh + credential-probe + TS scaffold quarantined |
 | [iart-ai/webgl-animation-skills](https://github.com/iart-ai/webgl-animation-skills) | iart-ai | MIT | ⚠️ bash capture scripts + plugin config quarantined |
+
+### Mobile native: apps + games (3rd research pass)
+
+| Repo | Author | License | Security |
+|---|---|---|---|
+| [twostraws/SwiftUI-Agent-Skill](https://github.com/twostraws/SwiftUI-Agent-Skill) | Paul Hudson (Hacking with Swift) | MIT | ✅ markdown-only |
+| [AvdLee/SwiftUI-Agent-Skill](https://github.com/AvdLee/SwiftUI-Agent-Skill) | Antoine van der Lee (SwiftLee) | MIT | ⚠️ Python xctrace scripts quarantined |
+| [skydoves/compose-performance-skills](https://github.com/skydoves/compose-performance-skills) | Jaewoong Eum (GDE Android/Kotlin) | Apache-2.0 | ⚠️ install script quarantined |
+| [dart-lang/skills](https://github.com/dart-lang/skills) | Dart team (official) | BSD-3 | ✅ clean |
+| [flutter/agent-plugins](https://github.com/flutter/agent-plugins) | Flutter team (official) | BSD-3 | ⚠️ only `flutter-*` skills installed; hooks/tooling not copied |
+| [Harishwarrior/flutter-claude-skills](https://github.com/Harishwarrior/flutter-claude-skills) | Harishwarrior (low-profile) | MIT | ⚠️ Python scanners quarantined |
+| [Unity-Technologies/skills](https://github.com/Unity-Technologies/skills) | Unity (official) | **UCL — non-OSI, Unity-projects only** | ✅ clean tree |
+| [adevra/unity-shader-agent-skills](https://github.com/adevra/unity-shader-agent-skills) | Anil Devran | MIT | ✅ markdown-only (unmaintained snapshot) |
+| [Randroids-Dojo/skills](https://github.com/Randroids-Dojo/skills) | Randroids Dojo | MIT | ⚠️ only `plugins/godot` installed; Python quarantined |
+
+> Discovery pipeline for future Apple-ecosystem additions: [twostraws/Swift-Agent-Skills](https://github.com/twostraws/Swift-Agent-Skills) — Paul Hudson's curated directory (MIT, index-only). Review each linked repo before adding; listing ≠ endorsement.
 
 ### Gap-fill candidates (vetted during build)
 

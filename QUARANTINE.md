@@ -65,6 +65,35 @@ _Generated 2026-07-30. Skills whose source directory shipped executable code or 
     - expo-skill-feedback/scripts/telemetry.cjs
     - expo-skill-feedback/scripts/telemetry_common.cjs
     - expo-skill-feedback/scripts/skill-event.cjs
+- **swiftui-hudson--swiftui-pro** — from `https://github.com/twostraws/SwiftUI-Agent-Skill`: 1 executable/hook file(s) quarantined (not installed, not activated). Types:
+    - .claude-plugin/plugin.json
+- **swiftui-avdlee--swiftui-expert** — from `https://github.com/AvdLee/SwiftUI-Agent-Skill`: 13 executable/hook file(s) quarantined (not installed, not activated). Types:
+    - scripts/analyze_trace.py
+    - scripts/record_trace.py
+    - scripts/instruments_parser/correlate.py
+    - scripts/instruments_parser/hangs.py
+    - scripts/instruments_parser/xctrace.py
+    - scripts/instruments_parser/events.py
+    - scripts/instruments_parser/__init__.py
+    - scripts/instruments_parser/causes.py
+    - scripts/instruments_parser/summary.py
+    - scripts/instruments_parser/swiftui.py
+    - scripts/instruments_parser/xml_utils.py
+    - scripts/instruments_parser/hitches.py
+    - scripts/instruments_parser/time_profiler.py
+- **compose-perf--compose-performance** — from `https://github.com/skydoves/compose-performance-skills`: 1 executable/hook file(s) quarantined (not installed, not activated). Types:
+    - scripts/install-skills.sh
+- **flutter-harish--owasp-mobile-security-checker** — from `https://github.com/Harishwarrior/flutter-claude-skills`: 4 executable/hook file(s) quarantined (not installed, not activated). Types:
+    - scripts/analyze_storage_security.py
+    - scripts/check_dependencies.py
+    - scripts/check_network_security.py
+    - scripts/scan_hardcoded_secrets.py
+- **godot-dojo--godot-dojo** — from `https://github.com/Randroids-Dojo/skills`: 5 executable/hook file(s) quarantined (not installed, not activated). Types:
+    - scripts/parse_results.py
+    - scripts/run_tests.py
+    - scripts/validate_project.py
+    - scripts/export_build.py
+    - .claude-plugin/plugin.json
 - **mengto--mengto-game-dev** — from `https://github.com/MengTo/Skills`: 1 executable/hook file(s) quarantined (not installed, not activated). Types:
     - build-vesperfall-review-assets/scripts/validate_pair.py
 - **awesome-gamedev--awesome-gamedev** — from `https://github.com/gamedev-skills/awesome-gamedev-agent-skills`: 2 executable/hook file(s) quarantined (not installed, not activated). Types:
@@ -346,3 +375,34 @@ _These files live at the top level of a caution repo, outside the `skills/` subt
     - skills/misc/git-guardrails-claude-code/scripts/block-dangerous-git.sh
     - skills/in-progress/setup-ts-deep-modules/dependency-cruiser.config.cjs
     - skills/in-progress/wizard/template.sh
+- **flutter-official (repo-root installers/hooks)** — https://github.com/flutter/agent-plugins: 7 file(s) OUTSIDE the installed `skills/` subtree, copied to `_quarantine/flutter-official--repo-root/`. Present in the `.sources` clone only; never installed into `skills/`:
+    - .cursor-plugin/plugin.json
+    - .agents/plugins/marketplace.json
+    - .agents/hooks.json
+    - .claude-plugin/marketplace.json
+    - .claude-plugin/plugin.json
+    - .codex-plugin/plugin.json
+    - tool/dart_skills_lint/scripts/install.sh
+- **godot-dojo (repo-root installers/hooks)** — https://github.com/Randroids-Dojo/skills: 22 file(s) OUTSIDE the installed `plugins/godot/` subtree, copied to `_quarantine/godot-dojo--repo-root/`. Present in the `.sources` clone only; never installed into `skills/`:
+    - plugins/slipbox/.claude-plugin/plugin.json
+    - plugins/spiral-html/scripts/init.sh
+    - plugins/spiral-html/scripts/audit.sh
+    - plugins/spiral-html/.claude-plugin/plugin.json
+    - plugins/spiral/scripts/init.sh
+    - plugins/spiral/scripts/audit.sh
+    - plugins/spiral/.claude-plugin/plugin.json
+    - plugins/task-tracking-dots/.claude-plugin/plugin.json
+    - plugins/randroid/hooks/stop-hook.sh
+    - plugins/randroid/hooks/hooks.json
+    - plugins/randroid/scripts/randroid-loop.sh
+    - plugins/randroid/scripts/setup-loop.sh
+    - plugins/task-tracking-dots-html/scripts/install-html-dots.sh
+    - plugins/task-tracking-dots-html/.claude-plugin/plugin.json
+    - plugins/unreal/scripts/rc_wait_ready.py
+    - plugins/unreal/scripts/ue_launch.py
+    - plugins/unreal/scripts/run_e2e.py
+    - plugins/unreal/.claude-plugin/plugin.json
+    - plugins/vibekit/scripts/add.sh
+    - plugins/vibekit/.claude-plugin/plugin.json
+    - .claude-plugin/marketplace.json
+    - .claude-plugin/plugin.json

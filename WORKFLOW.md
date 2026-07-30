@@ -31,9 +31,21 @@ Game skills live in `13-games/` as **packs** (mostly per-project). Start with th
 
 ## Mobile apps
 
-1. **React Native / Expo:** `12-mobile/expo` ⚠️ (`expo-router`, `expo-ui`, data-fetching, EAS app-stores/workflows) + `12-mobile/react-native-best-practices`, `react-navigation`, `upgrading-react-native`.
-2. **Ship to stores:** `12-mobile/aso` (app-store optimization) + `expo/eas-app-stores`.
-3. **UX:** reuse `10-content-ux/*` (onboarding, forms) and `02-fundamentals/*`.
+Pick the lane that matches the stack:
+
+1. **iOS native:** `12-mobile/swiftui-pro` (Paul Hudson — navigation, layout, animation, state, a11y, deprecated-API detection) + `12-mobile/swiftui-expert` ⚠️ (Antoine van der Lee — performance incl. Instruments workflows, iOS 26 Liquid Glass). Discovery pipeline for more Apple-ecosystem skills: [twostraws/Swift-Agent-Skills](https://github.com/twostraws/Swift-Agent-Skills) (directory, per-repo review required).
+2. **Android native:** `12-mobile/compose-performance` ⚠️ (skydoves — 26 Jetpack Compose perf skills; start with the `audit` orchestrator, which sequences the rest).
+3. **Flutter:** `12-mobile/flutter-*` (official Flutter team — architecture, responsive layout, routing, localization, testing) + `12-mobile/dart-official` (official Dart team) + `flutter-tester` / `owasp-mobile-security-checker` ⚠️ (supplementary).
+4. **React Native / Expo:** `12-mobile/expo` ⚠️ (`expo-router`, `expo-ui`, data-fetching, EAS app-stores/workflows) + `12-mobile/react-native-best-practices`, `react-navigation`, `upgrading-react-native`.
+5. **Ship to stores:** `12-mobile/aso` (app-store optimization) + `expo/eas-app-stores`.
+6. **UX:** reuse `10-content-ux/*` (onboarding, forms) and `02-fundamentals/*`.
+
+## Mobile games
+
+1. **Unity:** `13-games/awesome-gamedev/skills/unity/*` (fundamentals) + `13-games/unity-official` (official Unity — **IAP + LevelPlay ad mediation**, project setup, CLI; ⚠ Unity Companion License: Unity-engine projects only) + `13-games/unity-shaders` (mobile-GPU shader optimization — TBDR, Mali/Adreno, URP).
+2. **Godot mobile:** `13-games/godotprompter` ⚠️ (`mobile-development`, `responsive-ui`, `export-pipeline`) + `13-games/godot-dojo` ⚠️ (testing/export workflow).
+3. **Web-to-mobile:** `13-games/phaser4` ⚠️ (`phaser-mobile`: Capacitor, PWA, touch) + `13-games/mengto-game-dev` (`build-mobile-threejs-games`, `ship-web-games`).
+4. **Monetization/UX design:** `13-games/awesome-gamedev/skills/disciplines/game-feel` + `game-ui-ux`; `unity-official/implement-in-app-purchases` for IAP flow.
 
 ## Software engineering (any coding task)
 

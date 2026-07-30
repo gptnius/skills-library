@@ -34,6 +34,17 @@ webgl-anim        https://github.com/iart-ai/webgl-animation-skills             
 ui-sound          https://github.com/dannyjpwilliams/ui-sound-design-skill       PUBLIC-OK
 dataviz-skill     https://github.com/indi256s/dataviz-skill                      NO-LICENSE
 
+# ---- mobile native: apps + games (added 2026-07-30, research pass 3) ----
+swiftui-hudson    https://github.com/twostraws/SwiftUI-Agent-Skill               PUBLIC-OK
+swiftui-avdlee    https://github.com/AvdLee/SwiftUI-Agent-Skill                  PUBLIC-OK
+compose-perf      https://github.com/skydoves/compose-performance-skills         PUBLIC-OK
+dart-official     https://github.com/dart-lang/skills                            PUBLIC-OK
+flutter-official  https://github.com/flutter/agent-plugins                       PUBLIC-OK
+flutter-harish    https://github.com/Harishwarrior/flutter-claude-skills         PUBLIC-OK
+unity-official    https://github.com/Unity-Technologies/skills                   LICENSE-RESTRICTED
+unity-shaders     https://github.com/adevra/unity-shader-agent-skills            PUBLIC-OK
+godot-dojo        https://github.com/Randroids-Dojo/skills                       PUBLIC-OK
+
 # ---- software engineering (added 2026-07-30; all caution except karpathy) ----
 karpathy          https://github.com/multica-ai/andrej-karpathy-skills           LICENSE-UNCONFIRMED
 addyosmani-eng    https://github.com/addyosmani/agent-skills                      PUBLIC-OK
