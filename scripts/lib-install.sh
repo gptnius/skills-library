@@ -63,6 +63,7 @@ meta_url() { case "$1" in
   terraform-skill) echo "https://github.com/antonbabenko/terraform-skill";;
   golang-skills) echo "https://github.com/samber/cc-skills-golang";;
   rust-skills) echo "https://github.com/leonardomso/rust-skills";;
+  power-skills) echo "https://github.com/irfad7/claude-power-skills";;
   *) echo "unknown";; esac; }
 
 meta_author() { case "$1" in
@@ -111,6 +112,7 @@ meta_author() { case "$1" in
   terraform-skill) echo "Anton Babenko (AWS Community Hero, terraform-aws-modules)";;
   golang-skills) echo "Samuel Berthe (samber, author of lo/mo/do)";;
   rust-skills) echo "Leonardo Maldonado (leonardomso, 33-js-concepts)";;
+  power-skills) echo "irfad7 (low-profile; content hand-reviewed before adoption)";;
   *) echo "unknown";; esac; }
 
 meta_license() { case "$1" in
@@ -121,7 +123,7 @@ meta_license() { case "$1" in
   compose-perf) echo "Apache-2.0";;
   dart-official|flutter-official) echo "BSD-3-Clause";;
   unity-official) echo "Unity Companion License (UCL) — NON-OSI: use restricted to Unity-engine projects; no competitive analysis";;
-  blender-ra100|lean4|golang-skills|rust-skills) echo "MIT";;
+  blender-ra100|lean4|golang-skills|rust-skills|power-skills) echo "MIT";;
   agent-stuff|terraform-skill) echo "Apache-2.0";;
   cad-skill) echo "PolyForm Noncommercial 1.0.0 — NON-OSI: COMMERCIAL USE PROHIBITED";;
   kdense) echo "MIT (top-level) — PER-SKILL licenses vary (see each SKILL.md license: field)";;

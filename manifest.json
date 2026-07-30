@@ -1,8 +1,8 @@
 {
   "generated": "2026-07-30",
   "library_path": "~/Desktop/Skills-Library",
-  "total_top_level_entries": 215,
-  "total_skills": 727,
+  "total_top_level_entries": 220,
+  "total_skills": 732,
   "categories": [
     {
       "key": "00-direction",
@@ -92,7 +92,7 @@
     {
       "key": "17-ai-llm-eng",
       "title": "AI / LLM Engineering — prompt optimization, evals, context engineering",
-      "skill_count": 4
+      "skill_count": 9
     },
     {
       "key": "18-security",
@@ -2244,6 +2244,58 @@
       "purpose": "Use when writing, reviewing, or debugging Terraform/OpenTofu modules, tests, CI, scans, or state ops - diagnoses failure mode (identity churn, secrets, blast radius, CI drift, state corruption) with version-aware guards."
     },
     {
+      "name": "autodream",
+      "category": "17-ai-llm-eng",
+      "kind": "skill",
+      "path": "skills/17-ai-llm-eng/autodream",
+      "skill_count": 1,
+      "source_url": "https://github.com/irfad7/claude-power-skills",
+      "license": "MIT",
+      "author": "irfad7 (low-profile; content hand-reviewed before adoption)",
+      "always_on": false,
+      "caution": false,
+      "purpose": "When ending a session, consolidating memory, or when memory files feel stale or contradictory. Use when the user says \"dream,\" \"consolidate memory,\" \"clean up memory,\" \"merge notes,\" \"memory maintenance,\" \"what do you remember,\" \"update your knowledge,\" \"session end,\" or when memory/context files have accumulated noise over multiple sessions. Performs cross-session memory synthesis inspired by KAIROS autoDream."
+    },
+    {
+      "name": "context-compression",
+      "category": "17-ai-llm-eng",
+      "kind": "skill",
+      "path": "skills/17-ai-llm-eng/context-compression",
+      "skill_count": 1,
+      "source_url": "https://github.com/irfad7/claude-power-skills",
+      "license": "MIT",
+      "author": "irfad7 (low-profile; content hand-reviewed before adoption)",
+      "always_on": false,
+      "caution": false,
+      "purpose": "When conversation context is getting long, when approaching token limits, when the user says \"compress,\" \"summarize context,\" \"too long,\" \"running out of context,\" \"compact,\" or when you notice degraded performance due to context length. Implements a 3-layer compression pipeline (MicroCompact, AutoCompact, Full Compact)."
+    },
+    {
+      "name": "coordinator-mode",
+      "category": "17-ai-llm-eng",
+      "kind": "skill",
+      "path": "skills/17-ai-llm-eng/coordinator-mode",
+      "skill_count": 1,
+      "source_url": "https://github.com/irfad7/claude-power-skills",
+      "license": "MIT",
+      "author": "irfad7 (low-profile; content hand-reviewed before adoption)",
+      "always_on": false,
+      "caution": false,
+      "purpose": "When the user has a complex task that would benefit from multiple agents working in parallel or in sequence. Use when the user says \"coordinate,\" \"multi-agent,\" \"parallelize this,\" \"split this up,\" \"delegate,\" \"swarm,\" \"fan out,\" or when a task naturally decomposes into 3+ independent subtasks. Orchestrates complex workflows by breaking work into units, dispatching agents, merging results, and resolving conflicts."
+    },
+    {
+      "name": "kairos-session",
+      "category": "17-ai-llm-eng",
+      "kind": "skill",
+      "path": "skills/17-ai-llm-eng/kairos-session",
+      "skill_count": 1,
+      "source_url": "https://github.com/irfad7/claude-power-skills",
+      "license": "MIT",
+      "author": "irfad7 (low-profile; content hand-reviewed before adoption)",
+      "always_on": false,
+      "caution": false,
+      "purpose": "When starting or ending a work session, or when context files need maintenance. Use when the user says \"boot up,\" \"morning briefing,\" \"end session,\" \"session review,\" \"what changed,\" \"sync state,\" \"kairos,\" \"dream,\" \"consolidate,\" \"session start,\" or at the natural beginning/end of any significant work session. Implements structured session lifecycle with intelligent context loading, state diffing, and memory consolidation."
+    },
+    {
       "name": "mcp-builder",
       "category": "17-ai-llm-eng",
       "kind": "skill",
@@ -2268,6 +2320,19 @@
       "always_on": false,
       "caution": false,
       "purpose": "Creates, optimizes, and iteratively refines agent prompts, system prompts, developer prompts, and reusable prompt templates. Use when asked to improve a prompt, optimize a system prompt, rewrite an agent prompt, tune prompt wording, make a prompt more reliable, port prompts between OpenAI, Claude, or Gemini, or build prompt evals."
+    },
+    {
+      "name": "session-review",
+      "category": "17-ai-llm-eng",
+      "kind": "skill",
+      "path": "skills/17-ai-llm-eng/session-review",
+      "skill_count": 1,
+      "source_url": "https://github.com/irfad7/claude-power-skills",
+      "license": "MIT",
+      "author": "irfad7 (low-profile; content hand-reviewed before adoption)",
+      "always_on": false,
+      "caution": false,
+      "purpose": "When ending a work session and wanting to capture what was accomplished, what was learned, and what to do next. Use when the user says \"session review,\" \"what did we do,\" \"wrap up,\" \"summarize session,\" \"weekly review,\" \"retrospective,\" \"what happened today,\" \"debrief,\" or at natural session endings. Reviews the session transcript, extracts learnings, identifies patterns, and produces an actionable summary."
     },
     {
       "name": "skill-creator",

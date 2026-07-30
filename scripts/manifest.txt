@@ -194,6 +194,12 @@ one  rust-skills      .                                              16-engineer
 one  anthropic  skills/mcp-builder                                   17-ai-llm-eng  mcp-builder
 one  anthropic  skills/skill-creator                                 17-ai-llm-eng  skill-creator
 one  getsentry  skills/skill-writer                                  17-ai-llm-eng  skill-writer
+# --- agent orchestration + memory/context (irfad7, MIT, markdown-only; hand-reviewed) ---
+one  power-skills  skills/coordinator-mode                            17-ai-llm-eng  coordinator-mode
+one  power-skills  skills/context-compression                         17-ai-llm-eng  context-compression
+one  power-skills  skills/kairos-session                              17-ai-llm-eng  kairos-session
+one  power-skills  skills/autodream                                   17-ai-llm-eng  autodream
+one  power-skills  skills/session-review                              17-ai-llm-eng  session-review
 
 # ===== 21-marketing (organic marketing, social, SEO depth, growth) =====
 # --- haines: organic & social & strategy ---

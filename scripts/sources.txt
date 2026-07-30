@@ -65,3 +65,6 @@ addyosmani-eng    https://github.com/addyosmani/agent-skills                    
 superpowers       https://github.com/obra/superpowers                            PUBLIC-OK
 getsentry         https://github.com/getsentry/skills                            PUBLIC-OK
 mattpocock        https://github.com/mattpocock/skills                           PUBLIC-OK
+
+# ---- agent engineering (added 2026-07-30, research pass 4; hand-reviewed content) ----
+power-skills      https://github.com/irfad7/claude-power-skills                  PUBLIC-OK

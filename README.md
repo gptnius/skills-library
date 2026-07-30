@@ -2,7 +2,7 @@
 
 A curated, documented, locally-accessible library of **AI agent skills** (`SKILL.md` packages) for building **websites, apps, and games** — UI, UX, copywriting, motion, 3D/WebGL, effects, design systems, data viz, mobile, game development, and the **software-engineering lifecycle** (code review, TDD, debugging, CI/CD, security, AI/LLM).
 
-**Built 2026-07-30 · 727 skills · 215 top-level entries · 22 categories · 45 vetted source repos.**
+**Built 2026-07-30 · 732 skills · 220 top-level entries · 22 categories · 46 vetted source repos.**
 
 Every skill was pulled from a named source repo, security-reviewed, and stripped of executable code before install. See [`INDEX.md`](INDEX.md) for the full catalog and [`WORKFLOW.md`](WORKFLOW.md) for which skill to reach for at each stage.
 
@@ -134,6 +134,16 @@ LIB="$HOME/Desktop/Skills-Library"   # or wherever you cloned this repo (scripts
 > **Science/math verdict** (from adversarial verification): prose-only research guidance is largely LLM-native; skills earn their place when they ship workflow machinery — database integrations, analysis scripts, proof-toolchain loops. That machinery is quarantined here by policy: read it, then re-enable per project.
 >
 > **Also examined and skipped:** jahro-console/unity-agent-skills (vendor console, not mobile engineering), sickn33 unity-ai-game-creator (safe but shallow), htdt/godogen (failed verification), muratcankoylan context-engineering (hype + launchd daemons).
+
+### Agent engineering (5th research pass — mostly a negative result)
+
+The dedicated hunt for agent-engineering skills (tool design, MCP depth, multi-agent, memory, evals, voice agents) found the ecosystem **thin**: most "agent" repos are subagent/plugin collections in a different format, laden with installers and hooks. The verified outcome:
+
+| Repo | Author | License | Result |
+|---|---|---|---|
+| [irfad7/claude-power-skills](https://github.com/irfad7/claude-power-skills) | irfad7 (low-profile) | MIT | ✅ markdown-only; **5 skills adopted after hand-review of content** (`coordinator-mode`, `context-compression`, `kairos-session`, `autodream`, `session-review`) |
+
+**Examined and rejected:** davepoon/buildwithclaude (plugin marketplace; hook `.md`s embed bash incl. a curl-pipe-to-shell from a third-party domain — usable as a *discovery index* only), VoltAgent/awesome-claude-code-subagents (subagent format, not SKILL.md; installers write `~/.claude/agents`), LeekJay/scarab (0★, no license, installs Node executables into `~/.claude`), sno-ai/mda (a compiler, not skills), adelie-ai/skills-mcp (Rust binary, mislabeled). Tool-design, MCP-depth, agent-evals, and voice-agent skills **don't yet exist in credible SKILL.md form** — covered instead by our existing base (Anthropic `mcp-builder`/`skill-creator`, Sentry `prompt-optimizer`/`skill-writer`/`skill-scanner`, superpowers' subagent skills, addyosmani's `context-engineering`) — re-check vendor orgs (OpenAI, LangChain, Pipecat, LiveKit) on future syncs.
 
 ### Gap-fill candidates (vetted during build)
 

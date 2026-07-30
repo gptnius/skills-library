@@ -95,8 +95,9 @@ The verified pattern: prose-only "research guidance" is mostly LLM-native; these
 1. **Build agent tools:** `17-ai-llm-eng/mcp-builder` (Anthropic — MCP servers) + the env's `claude-api` skill.
 2. **Author skills:** `17-ai-llm-eng/skill-creator` (Anthropic) + `skill-writer` (Sentry) + `16-engineering/superpowers/writing-skills`.
 3. **Prompts & context:** `17-ai-llm-eng/prompt-optimizer` (Sentry, evals-driven) + `16-engineering/addyosmani-agent-skills/context-engineering`.
-4. **Multi-agent:** `16-engineering/superpowers` — `subagent-driven-development`, `dispatching-parallel-agents`.
-5. **Safety:** `18-security/skill-scanner` before adopting any third-party skill.
+4. **Multi-agent:** `17-ai-llm-eng/coordinator-mode` (wave planning, dependency ordering, dispatch/merge protocol) + `16-engineering/superpowers` — `subagent-driven-development`, `dispatching-parallel-agents`.
+5. **Memory & context:** `17-ai-llm-eng/context-compression` (3-layer pipeline), `kairos-session` / `session-review` (session lifecycle + handoffs), `autodream` (cross-session memory synthesis).
+6. **Safety:** `18-security/skill-scanner` before adopting any third-party skill.
 
 ## One primary per lane (avoid conflicting guidance)
 

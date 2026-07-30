@@ -4,7 +4,7 @@ _Generated 2026-07-30. Every skill in this library is the work of its original a
 
 **This library is a curated index + installer. It claims no ownership of the skills themselves.** The original contributions here are the `scripts/`, `manifest.txt`, and the generated documentation — everything under `skills/` belongs to the authors credited below.
 
-## Sources (44)
+## Sources (45)
 
 | Source repo | Author | License |
 |---|---|---|
@@ -30,6 +30,7 @@ _Generated 2026-07-30. Every skill in this library is the work of its original a
 | [Harishwarrior/flutter-claude-skills](https://github.com/Harishwarrior/flutter-claude-skills) | Harishwarrior | MIT |
 | [iart-ai/webgl-animation-skills](https://github.com/iart-ai/webgl-animation-skills) | iart-ai | MIT |
 | [indi256s/dataviz-skill](https://github.com/indi256s/dataviz-skill) | indi256s | UNSPECIFIED — no LICENSE file (treat as all-rights-reserved; do not redistribute) |
+| [irfad7/claude-power-skills](https://github.com/irfad7/claude-power-skills) | irfad7 (low-profile; content hand-reviewed before adoption) | MIT |
 | [skydoves/compose-performance-skills](https://github.com/skydoves/compose-performance-skills) | Jaewoong Eum (skydoves, GDE Android/Kotlin) | Apache-2.0 |
 | [jakubkrehel/skills](https://github.com/jakubkrehel/skills) | Jakub Krehel | MIT |
 | [jame581/GodotPrompter](https://github.com/jame581/GodotPrompter) | jame581 | MIT |
