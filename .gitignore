@@ -1,0 +1,8 @@
+# Curation-layer repo: build artifacts and vendored content are NOT published.
+# Users rebuild them locally with scripts/bootstrap.sh (pulls each skill from its author).
+# NOTE: gitignore has no inline comments — keep patterns on their own lines.
+
+.sources/
+skills/
+_quarantine/
+.DS_Store

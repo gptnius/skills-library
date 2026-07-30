@@ -1,0 +1,42 @@
+# sources.txt — the source-of-truth repo list for clone-sources.sh / bootstrap.sh.
+# Format:  key  url  [flag]
+# flag (optional): PUBLIC-OK | NO-LICENSE | LICENSE-UNCONFIRMED | LICENSE-INCONSISTENT
+#   - NO-LICENSE / LICENSE-UNCONFIRMED / LICENSE-INCONSISTENT: resolve before any PUBLIC redistribution.
+#   - A curation-layer public repo (skills/ gitignored) sidesteps redistribution entirely — users pull upstream themselves.
+# Comments (#) and blank lines are ignored. No field may contain spaces.
+
+# ---- foundation ----
+mengto            https://github.com/MengTo/Skills                               PUBLIC-OK
+anthropic         https://github.com/anthropics/skills                           LICENSE-UNCONFIRMED
+haines            https://github.com/coreyhaines31/marketingskills               PUBLIC-OK
+rampstack         https://github.com/rampstackco/claude-skills                   PUBLIC-OK
+krehel            https://github.com/jakubkrehel/skills                          PUBLIC-OK
+emil              https://github.com/emilkowalski/skills                         PUBLIC-OK
+ibelick           https://github.com/ibelick/ui-skills                           PUBLIC-OK
+salaja            https://github.com/raphaelsalaja/userinterface-wiki            PUBLIC-OK
+bora              https://github.com/boraoztunc/skills                           LICENSE-INCONSISTENT
+lottie            https://github.com/lottiefiles/motion-design-skill             PUBLIC-OK
+
+# ---- research: 3D / games / tokens / mobile / web-quality ----
+awesome-gamedev   https://github.com/gamedev-skills/awesome-gamedev-agent-skills PUBLIC-OK
+design-tokens     https://github.com/ilikescience/design-tokens-skill            PUBLIC-OK
+three-agent       https://github.com/emalorenzo/three-agent-skills               LICENSE-UNCONFIRMED
+expo              https://github.com/expo/skills                                 PUBLIC-OK
+web-quality       https://github.com/addyosmani/web-quality-skills               PUBLIC-OK
+callstack         https://github.com/callstackincubator/agent-skills             PUBLIC-OK
+threejs-graphics  https://github.com/scottstts/Threejs-Awesome-Graphics-Agent-Skills  PUBLIC-OK
+godotprompter     https://github.com/jame581/GodotPrompter                       PUBLIC-OK
+phaser4           https://github.com/Yakoub-ai/phaser4-gamedev                   LICENSE-UNCONFIRMED
+threejs-game      https://github.com/majidmanzarpour/threejs-game-skills         PUBLIC-OK
+webgl-anim        https://github.com/iart-ai/webgl-animation-skills              PUBLIC-OK
+
+# ---- gap candidates ----
+ui-sound          https://github.com/dannyjpwilliams/ui-sound-design-skill       PUBLIC-OK
+dataviz-skill     https://github.com/indi256s/dataviz-skill                      NO-LICENSE
+
+# ---- software engineering (added 2026-07-30; all caution except karpathy) ----
+karpathy          https://github.com/multica-ai/andrej-karpathy-skills           LICENSE-UNCONFIRMED
+addyosmani-eng    https://github.com/addyosmani/agent-skills                      PUBLIC-OK
+superpowers       https://github.com/obra/superpowers                            PUBLIC-OK
+getsentry         https://github.com/getsentry/skills                            PUBLIC-OK
+mattpocock        https://github.com/mattpocock/skills                           PUBLIC-OK

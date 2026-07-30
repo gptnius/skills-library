@@ -1,0 +1,348 @@
+# Quarantine
+
+_Generated 2026-07-30. Skills whose source directory shipped executable code or agent hooks. Only the **markdown + reference material** was installed into `skills/`; every executable/hook file below was copied to `_quarantine/` and is **never symlinked or activated**._
+
+> To use a quarantined script, read it yourself first, then run it manually. Agent hooks in particular can modify `.claude/`, `.cursor/`, and `.codex/` settings. Nothing here runs unless you run it.
+
+- **anthropic--algorithmic-art** — from `https://github.com/anthropics/skills`: 1 executable/hook file(s) quarantined (not installed, not activated). Types:
+    - templates/generator_template.js
+- **mengto--add-shader-cursor-trail** — from `https://github.com/MengTo/Skills`: 1 executable/hook file(s) quarantined (not installed, not activated). Types:
+    - scripts/verify-cursor-trail.mjs
+- **threejs-graphics--threejs-graphics** — from `https://github.com/scottstts/Threejs-Awesome-Graphics-Agent-Skills`: 228 executable/hook file(s) quarantined (not installed, not activated). Types:
+    - threejs-water-optics/examples/interactive-pool-volume/water-volume-system.js
+    - threejs-water-optics/examples/analytic-wave-optics/water-system.js
+    - threejs-procedural-geometry/examples/formula-one-race-car/race-car-model.js
+    - threejs-procedural-geometry/examples/formula-one-race-car/source/race-car-model.js
+    - threejs-procedural-geometry/examples/formula-one-race-car/source/race-car-materials.js
+    - threejs-procedural-geometry/examples/formula-one-race-car/source/mesh-kit.js
+    - threejs-procedural-geometry/examples/formula-one-race-car/source/design-contract.js
+    - threejs-procedural-geometry/examples/formula-one-race-car/source/race-car-textures.js
+    - threejs-procedural-geometry/examples/sport-motorcycle/motorcycle-model.js
+    - threejs-procedural-geometry/examples/sport-motorcycle/source/motorcycle-parts.js
+    - threejs-procedural-geometry/examples/sport-motorcycle/source/motorcycle-materials.js
+    - threejs-procedural-geometry/examples/sport-motorcycle/source/motorcycle-model.js
+    - threejs-procedural-geometry/examples/sport-motorcycle/source/mesh-kit.js
+    - threejs-procedural-geometry/examples/sport-motorcycle/source/design-contract.js
+    - threejs-procedural-geometry/examples/porcelain-brass-submarine/submarine-model.js
+    - threejs-procedural-geometry/examples/porcelain-brass-submarine/source/submarine-model.js
+    - threejs-procedural-geometry/examples/porcelain-brass-submarine/source/mesh-kit.js
+    - threejs-procedural-geometry/examples/porcelain-brass-submarine/source/design-contract.js
+    - threejs-procedural-geometry/examples/porcelain-brass-submarine/source/submarine-materials.js
+    - threejs-procedural-geometry/examples/sculpted-gallery-frame/frame-geometry.js
+    - threejs-procedural-vfx/examples/holographic-shape-transition/hologram-material.js
+    - threejs-procedural-vfx/examples/holographic-shape-transition/hologram-transition.js
+    - threejs-procedural-vfx/examples/reentry-plasma/reentry-plasma.js
+    - threejs-temporal-surfaces/examples/touch-history-frost/frost-surface-effect.js
+    - threejs-temporal-surfaces/examples/refractive-window-rain/window-rain-effect.js
+    - threejs-atmosphere-aerial-perspective/examples/lut-aerial-perspective/atmosphere-effect.js
+    - threejs-atmosphere-aerial-perspective/examples/lut-aerial-perspective/source/atmosphere/blackBodyChromaticity.ts
+    - threejs-atmosphere-aerial-perspective/examples/lut-aerial-perspective/source/atmosphere/AtmosphereMaterialBase.ts
+    - threejs-atmosphere-aerial-perspective/examples/lut-aerial-perspective/source/atmosphere/getSunLightColor.ts
+    - threejs-atmosphere-aerial-perspective/examples/lut-aerial-perspective/source/atmosphere/IrradianceMaskPass.ts
+    - threejs-atmosphere-aerial-perspective/examples/lut-aerial-perspective/source/atmosphere/AtmosphereParameters.ts
+    - threejs-atmosphere-aerial-perspective/examples/lut-aerial-perspective/source/atmosphere/SunDirectionalLight.ts
+    - threejs-atmosphere-aerial-perspective/examples/lut-aerial-perspective/source/atmosphere/getAltitudeCorrectionOffset.ts
+    - threejs-atmosphere-aerial-perspective/examples/lut-aerial-perspective/source/atmosphere/StarsMaterial.ts
+    - threejs-atmosphere-aerial-perspective/examples/lut-aerial-perspective/source/atmosphere/types.ts
+    - threejs-atmosphere-aerial-perspective/examples/lut-aerial-perspective/source/atmosphere/SkyLightProbe.ts
+    - threejs-atmosphere-aerial-perspective/examples/lut-aerial-perspective/source/atmosphere/AerialPerspectiveEffect.ts
+    - threejs-atmosphere-aerial-perspective/examples/lut-aerial-perspective/source/atmosphere/constants.ts
+    - threejs-atmosphere-aerial-perspective/examples/lut-aerial-perspective/source/atmosphere/PrecomputedTexturesLoader.ts
+    - threejs-atmosphere-aerial-perspective/examples/lut-aerial-perspective/source/atmosphere/shaders/index.ts
+- **ui-sound--ui-sound-design** — from `https://github.com/dannyjpwilliams/ui-sound-design-skill`: 1 executable/hook file(s) quarantined (not installed, not activated). Types:
+    - tools/analyze-sound.mjs
+- **anthropic--webapp-testing** — from `https://github.com/anthropics/skills`: 4 executable/hook file(s) quarantined (not installed, not activated). Types:
+    - examples/console_logging.py
+    - examples/static_html_automation.py
+    - examples/element_discovery.py
+    - scripts/with_server.py
+- **web-quality--web-quality** — from `https://github.com/addyosmani/web-quality-skills`: 1 executable/hook file(s) quarantined (not installed, not activated). Types:
+    - web-quality-audit/scripts/analyze.sh
+- **expo--expo** — from `https://github.com/expo/skills`: 6 executable/hook file(s) quarantined (not installed, not activated). Types:
+    - eas-workflows/scripts/fetch.js
+    - eas-workflows/scripts/validate.js
+    - expo-ui/scripts/list-components.js
+    - expo-skill-feedback/scripts/telemetry.cjs
+    - expo-skill-feedback/scripts/telemetry_common.cjs
+    - expo-skill-feedback/scripts/skill-event.cjs
+- **mengto--mengto-game-dev** — from `https://github.com/MengTo/Skills`: 1 executable/hook file(s) quarantined (not installed, not activated). Types:
+    - build-vesperfall-review-assets/scripts/validate_pair.py
+- **awesome-gamedev--awesome-gamedev** — from `https://github.com/gamedev-skills/awesome-gamedev-agent-skills`: 2 executable/hook file(s) quarantined (not installed, not activated). Types:
+    - scripts/validate-skills.py
+    - .claude-plugin/marketplace.json
+- **phaser4--phaser4** — from `https://github.com/Yakoub-ai/phaser4-gamedev`: 7 executable/hook file(s) quarantined (not installed, not activated). Types:
+    - phaser-playtest/examples/scenario.example.mjs
+    - phaser-playtest/scripts/playtest.mjs
+    - phaser-init/examples/game-config.ts
+    - phaser-init/examples/boot-scene.ts
+    - phaser-init/examples/vite-config.ts
+    - phaser-build/scripts/validate-project.sh
+    - phaser-analyze/scripts/analyze-project.sh
+- **threejs-game--threejs-game** — from `https://github.com/majidmanzarpour/threejs-game-skills`: 28 executable/hook file(s) quarantined (not installed, not activated). Types:
+    - threejs-3d-generator/scripts/threejs_3d_asset.py
+    - threejs-qa-release/scripts/inspect-threejs-canvas.mjs
+    - threejs-game-director/scripts/probe_asset_credentials.sh
+    - threejs-game-director/scripts/audit_reference_report.py
+    - threejs-gameplay-systems/scripts/create_threejs_game.py
+    - threejs-gameplay-systems/assets/threejs-vite-game/tests/bot-playtest.template.ts
+    - threejs-gameplay-systems/assets/threejs-vite-game/tests/visual-regression.template.ts
+    - threejs-gameplay-systems/assets/threejs-vite-game/tests/visual.spec.ts
+    - threejs-gameplay-systems/assets/threejs-vite-game/scripts/inspect-threejs-canvas.mjs
+    - threejs-gameplay-systems/assets/threejs-vite-game/playwright.config.ts
+    - threejs-gameplay-systems/assets/threejs-vite-game/vite.config.ts
+    - threejs-gameplay-systems/assets/threejs-vite-game/src/core/Loop.ts
+    - threejs-gameplay-systems/assets/threejs-vite-game/src/core/InputController.ts
+    - threejs-gameplay-systems/assets/threejs-vite-game/src/core/Renderer.ts
+    - threejs-gameplay-systems/assets/threejs-vite-game/src/main.ts
+    - threejs-gameplay-systems/assets/threejs-vite-game/src/utils/dispose.ts
+    - threejs-gameplay-systems/assets/threejs-vite-game/src/utils/random.ts
+    - threejs-gameplay-systems/assets/threejs-vite-game/src/game/Game.ts
+    - threejs-gameplay-systems/assets/threejs-vite-game/src/vite-env.d.ts
+    - threejs-gameplay-systems/assets/threejs-vite-game/src/systems/CollisionSystem.ts
+    - threejs-gameplay-systems/assets/threejs-vite-game/src/systems/CameraRig.ts
+    - threejs-gameplay-systems/assets/threejs-vite-game/src/systems/Hud.ts
+    - threejs-gameplay-systems/assets/threejs-vite-game/src/systems/AudioSystem.ts
+    - threejs-gameplay-systems/assets/threejs-vite-game/src/systems/DebugTools.ts
+    - threejs-gameplay-systems/assets/threejs-vite-game/src/entities/Pickup.ts
+    - threejs-gameplay-systems/assets/threejs-vite-game/src/entities/Player.ts
+    - threejs-image-generator/scripts/generate_image.py
+    - threejs-audio-generator/scripts/threejs_audio_asset.py
+- **addyosmani-eng--addyosmani-agent-skills** — from `https://github.com/addyosmani/agent-skills`: 1 executable/hook file(s) quarantined (not installed, not activated). Types:
+    - idea-refine/scripts/idea-refine.sh
+- **superpowers--superpowers** — from `https://github.com/obra/superpowers`: 7 executable/hook file(s) quarantined (not installed, not activated). Types:
+    - systematic-debugging/condition-based-waiting-example.ts
+    - systematic-debugging/find-polluter.sh
+    - brainstorming/scripts/stop-server.sh
+    - brainstorming/scripts/start-server.sh
+    - brainstorming/scripts/server.cjs
+    - brainstorming/scripts/helper.js
+    - writing-skills/render-graphs.js
+- **mattpocock--mattpocock-engineering** — from `https://github.com/mattpocock/skills`: 1 executable/hook file(s) quarantined (not installed, not activated). Types:
+    - diagnosing-bugs/scripts/hitl-loop.template.sh
+- **getsentry--skill-scanner** — from `https://github.com/getsentry/skills`: 1 executable/hook file(s) quarantined (not installed, not activated). Types:
+    - scripts/scan_skill.py
+- **mengto--stitched-full-page-capture** — from `https://github.com/MengTo/Skills`: 1 executable/hook file(s) quarantined (not installed, not activated). Types:
+    - scripts/stitch_full_page_capture.mjs
+- **mengto--build-daily-inspiration-sites** — from `https://github.com/MengTo/Skills`: 1 executable/hook file(s) quarantined (not installed, not activated). Types:
+    - scripts/validate_capture.mjs
+
+## Repo-root installers & hooks (caution packs)
+
+_These files live at the top level of a caution repo, outside the `skills/` subtree that was installed. They are the installers/validators/session hooks flagged by the security research. Copied here for review; **never installed, never run**._
+
+- **threejs-graphics (repo-root installers/hooks)** — https://github.com/scottstts/Threejs-Awesome-Graphics-Agent-Skills: 54 file(s) OUTSIDE the installed `skills/` subtree, copied to `_quarantine/threejs-graphics--repo-root/`. Present in the `.sources` clone only; never installed into `skills/`:
+    - bin/threejs-awesome-graphics-agent-skills.mjs
+    - scripts/test-example-asset-origins.mjs
+    - scripts/test-agent-routing.mjs
+    - scripts/validate-pack.mjs
+    - scripts/test-installer.mjs
+    - scripts/test-reference-examples.mjs
+    - scripts/check-three-freshness.mjs
+    - scripts/capture-examples.mjs
+    - dev/example-gallery/discovery.mjs
+    - dev/example-gallery/runtime/inspection-host.js
+    - dev/example-gallery/runtime/three-stdlib-exr-loader.js
+    - dev/example-gallery/runtime/example-runtime.js
+    - dev/example-gallery/public/app.js
+    - dev/example-gallery/support/studio-stage.js
+    - dev/example-gallery/support/texture-loaders.js
+    - dev/example-gallery/examples/threejs-water-optics/interactive-pool-volume/scene.js
+    - dev/example-gallery/examples/threejs-water-optics/analytic-wave-optics/scene.js
+    - dev/example-gallery/examples/threejs-water-optics/analytic-wave-optics/water-optics-scene.js
+    - dev/example-gallery/examples/threejs-procedural-geometry/formula-one-race-car/scene.js
+    - dev/example-gallery/examples/threejs-procedural-geometry/formula-one-race-car/race-car-scene.js
+    - dev/example-gallery/examples/threejs-procedural-geometry/sport-motorcycle/scene.js
+    - dev/example-gallery/examples/threejs-procedural-geometry/sport-motorcycle/motorcycle-scene.js
+    - dev/example-gallery/examples/threejs-procedural-geometry/porcelain-brass-submarine/scene.js
+    - dev/example-gallery/examples/threejs-procedural-geometry/porcelain-brass-submarine/submarine-scene.js
+    - dev/example-gallery/examples/threejs-procedural-geometry/sculpted-gallery-frame/gallery-frame-scene.js
+    - dev/example-gallery/examples/threejs-procedural-geometry/sculpted-gallery-frame/scene.js
+    - dev/example-gallery/examples/threejs-procedural-vfx/holographic-shape-transition/scene.js
+    - dev/example-gallery/examples/threejs-procedural-vfx/reentry-plasma/scene.js
+    - dev/example-gallery/examples/threejs-temporal-surfaces/touch-history-frost/scene.js
+    - dev/example-gallery/examples/threejs-temporal-surfaces/refractive-window-rain/scene.js
+    - dev/example-gallery/examples/threejs-atmosphere-aerial-perspective/lut-aerial-perspective/scene.js
+    - dev/example-gallery/examples/threejs-procedural-planets/procedural-planet-surface/scene.js
+    - dev/example-gallery/examples/threejs-volumetric-clouds/weather-volume-clouds/scene.js
+    - dev/example-gallery/examples/threejs-spectral-ocean/stylized-above-below-ocean/scene.js
+    - dev/example-gallery/examples/threejs-spectral-ocean/submerged-snell-ocean/scene.js
+    - dev/example-gallery/examples/threejs-spectral-ocean/spectral-cascade-ocean/scene.js
+    - dev/example-gallery/examples/threejs-spectral-ocean/hybrid-clear-water-ocean/scene.js
+    - dev/example-gallery/examples/threejs-precipitation-surfaces/snow-accumulation/scene.js
+    - dev/example-gallery/examples/threejs-precipitation-surfaces/wet-puddle-rain/scene.js
+    - dev/example-gallery/examples/threejs-raymarched-space-effects/curved-ray-accretion-volume/scene.js
+    - dev/example-gallery/examples/threejs-raymarched-space-effects/schwarzschild-geodesic-black-hole/scene.js
+    - dev/example-gallery/examples/threejs-parallax-occlusion-mapping/silhouette-relief/scene.js
+    - dev/example-gallery/examples/threejs-procedural-architecture/procedural-financial-tower/scene.js
+    - dev/example-gallery/examples/threejs-procedural-architecture/procedural-financial-tower/daylight-environment.js
+    - dev/example-gallery/examples/threejs-procedural-architecture/procedural-financial-tower/procedural-financial-tower-scene.js
+    - dev/example-gallery/examples/threejs-procedural-materials/lava-flow-surface/scene.js
+    - dev/example-gallery/examples/threejs-procedural-materials/hybrid-soil-moss-surface/scene.js
+    - dev/example-gallery/examples/threejs-procedural-vegetation/procedural-surface-ivy/scene.js
+    - dev/example-gallery/examples/threejs-procedural-vegetation/stylized-meadow-grass/scene.js
+    - dev/example-gallery/examples/threejs-procedural-vegetation/structured-ash-growth/scene.js
+    - dev/example-gallery/examples/threejs-procedural-vegetation/structured-ash-growth/vegetation-scene.js
+    - dev/example-gallery/examples/threejs-procedural-vegetation/gpu-computed-grass/scene.js
+    - dev/example-gallery/server.mjs
+    - dev/example-gallery/fixtures/runtime-contract/main.js
+- **godotprompter (repo-root installers/hooks)** — https://github.com/jame581/GodotPrompter: 14 file(s) OUTSIDE the installed `skills/` subtree, copied to `_quarantine/godotprompter--repo-root/`. Present in the `.sources` clone only; never installed into `skills/`:
+    - .cursor-plugin/plugin.json
+    - .opencode/plugins/godot-prompter.js
+    - tests/hooks/session-start.test.mjs
+    - .claude/settings.json
+    - plugin.json
+    - hooks/run-hook.cmd
+    - hooks/hooks-cursor.json
+    - hooks/hooks.json
+    - scripts/bump-version.mjs
+    - scripts/hooks/validate-skill-on-edit.mjs
+    - scripts/count-tokens.mjs
+    - scripts/validate-skills.mjs
+    - .claude-plugin/marketplace.json
+    - .claude-plugin/plugin.json
+- **phaser4 (repo-root installers/hooks)** — https://github.com/Yakoub-ai/phaser4-gamedev: 7 file(s) OUTSIDE the installed `skills/` subtree, copied to `_quarantine/phaser4--repo-root/`. Present in the `.sources` clone only; never installed into `skills/`:
+    - hooks/scripts/detect-phaser.sh
+    - hooks/scripts/check-v3-api.sh
+    - hooks/hooks.json
+    - scripts/validate-plugin.sh
+    - .claude-plugin/marketplace.json
+    - .claude-plugin/plugin.json
+    - .codex-plugin/plugin.json
+- **threejs-game (repo-root installers/hooks)** — https://github.com/majidmanzarpour/threejs-game-skills: 3 file(s) OUTSIDE the installed `skills/` subtree, copied to `_quarantine/threejs-game--repo-root/`. Present in the `.sources` clone only; never installed into `skills/`:
+    - install.sh
+    - scripts/validate-skills.sh
+    - scripts/check-python-syntax.py
+- **webgl-anim (repo-root installers/hooks)** — https://github.com/iart-ai/webgl-animation-skills: 5 file(s) OUTSIDE the installed `skills/` subtree, copied to `_quarantine/webgl-anim--repo-root/`. Present in the `.sources` clone only; never installed into `skills/`:
+    - scripts/contact-sheet.sh
+    - scripts/probe-mp4.sh
+    - scripts/seek-shot.sh
+    - .claude-plugin/marketplace.json
+    - .claude-plugin/plugin.json
+- **expo (repo-root installers/hooks)** — https://github.com/expo/skills: 23 file(s) OUTSIDE the installed `plugins/expo/skills/` subtree, copied to `_quarantine/expo--repo-root/`. Present in the `.sources` clone only; never installed into `skills/`:
+    - plugins/expo/.cursor-plugin/plugin.json
+    - plugins/expo/hooks/hooks.json
+    - plugins/expo/.claude-plugin/plugin.json
+    - plugins/expo/.codex-plugin/plugin.json
+    - plugins/expo-experiments/.cursor-plugin/plugin.json
+    - plugins/expo-experiments/.claude-plugin/plugin.json
+    - plugins/expo-experiments/.codex-plugin/plugin.json
+    - .cursor-plugin/marketplace.json
+    - .agents/plugins/marketplace.json
+    - .claude/skills/expo-skill-eval/scripts/snapshot-ios.sh
+    - .claude/skills/expo-skill-eval/scripts/snapshot-web.sh
+    - .claude/skills/expo-skill-eval/scripts/make-workspace.sh
+    - .claude/skills/expo-skill-eval/scripts/generate_viewer.py
+    - .claude/skills/expo-skill-eval/scripts/check-static.sh
+    - .claude/skills/expo-skill-eval/scripts/make-fixture.sh
+    - .claude/skills/expo-skill-eval/scripts/snapshot-android.sh
+    - .claude/skills/expo-skill-eval/scripts/clean-fixture.sh
+    - .claude/skills/expo-skill-eval/scripts/latest-sdk.sh
+    - scripts/ci.py
+    - scripts/check-plugin-version-bump.ts
+    - scripts/check-skill-limits.ts
+    - scripts/ci.sh
+    - .claude-plugin/marketplace.json
+- **addyosmani-eng (repo-root installers/hooks)** — https://github.com/addyosmani/agent-skills: 38 file(s) OUTSIDE the installed `skills/` subtree, copied to `_quarantine/addyosmani-eng--repo-root/`. Present in the `.sources` clone only; never installed into `skills/`:
+    - evals/fixtures/debugging-and-error-recovery/pagination.js
+    - evals/fixtures/debugging-and-error-recovery/pagination.test.js
+    - evals/fixtures/test-driven-development/invoice.js
+    - evals/fixtures/test-driven-development/invoice.test.js
+    - evals/fixtures/incremental-implementation/reports.test.js
+    - evals/fixtures/incremental-implementation/reports.js
+    - evals/fixtures/incremental-implementation-pressure/draft-export.js
+    - evals/fixtures/ci-cd-and-automation/test/slug.test.js
+    - evals/fixtures/ci-cd-and-automation/src/slug.js
+    - evals/fixtures/security-and-hardening/webhook.js
+    - evals/fixtures/security-and-hardening/webhook.test.js
+    - evals/fixtures/observability-and-instrumentation/payment-retry.js
+    - evals/fixtures/code-simplification/config-parser.js
+    - evals/fixtures/code-simplification/config-parser.test.js
+    - evals/fixtures/performance-optimization/products.js
+    - evals/fixtures/performance-optimization/benchmark.js
+    - evals/fixtures/test-driven-development-ecosystem/ledger.py
+    - evals/fixtures/test-driven-development-ecosystem/test_ledger.py
+    - evals/fixtures/browser-testing-with-devtools/server.js
+    - evals/fixtures/git-workflow-and-versioning/app.test.js
+    - evals/fixtures/git-workflow-and-versioning/app.js
+    - .agents/plugins/marketplace.json
+    - plugin.json
+    - hooks/simplify-ignore.sh
+    - hooks/session-start-test.sh
+    - hooks/sdd-cache-post.sh
+    - hooks/sdd-cache-pre.sh
+    - hooks/session-start.sh
+    - hooks/simplify-ignore-test.sh
+    - hooks/hooks.json
+    - scripts/run-evals.js
+    - scripts/run-evals-test.js
+    - scripts/validate-skills.js
+    - scripts/lib/skill-lint.js
+    - scripts/validate-commands.js
+    - .claude-plugin/marketplace.json
+    - .claude-plugin/plugin.json
+    - .codex-plugin/plugin.json
+- **superpowers (repo-root installers/hooks)** — https://github.com/obra/superpowers: 56 file(s) OUTSIDE the installed `skills/` subtree, copied to `_quarantine/superpowers--repo-root/`. Present in the `.sources` clone only; never installed into `skills/`:
+    - .kimi-plugin/plugin.json
+    - .cursor-plugin/plugin.json
+    - .opencode/plugins/superpowers.js
+    - tests/claude-code/test-subagent-driven-development.sh
+    - tests/claude-code/test-worktree-path-policy.sh
+    - tests/claude-code/analyze-token-usage.py
+    - tests/claude-code/test-helpers.sh
+    - tests/claude-code/test-worktree-native-preference.sh
+    - tests/claude-code/run-skill-tests.sh
+    - tests/claude-code/test-subagent-driven-development-integration.sh
+    - tests/claude-code/test-sdd-workspace.sh
+    - tests/systematic-debugging/test-find-polluter.sh
+    - tests/explicit-skill-requests/run-test.sh
+    - tests/explicit-skill-requests/run-haiku-test.sh
+    - tests/explicit-skill-requests/run-multiturn-test.sh
+    - tests/explicit-skill-requests/run-extended-multiturn-test.sh
+    - tests/explicit-skill-requests/run-all.sh
+    - tests/shell-lint/test-lint-shell.sh
+    - tests/codex/test-package-codex-plugin.sh
+    - tests/codex/test-marketplace-manifest.sh
+    - tests/pi/test-pi-extension.mjs
+    - tests/hooks/test-session-start.sh
+    - tests/codex-plugin-sync/test-sync-to-codex-plugin.sh
+    - tests/brainstorm-server/browser-launcher.test.js
+    - tests/brainstorm-server/ws-protocol.test.js
+    - tests/brainstorm-server/start-server.test.sh
+    - tests/brainstorm-server/branding.test.js
+    - tests/brainstorm-server/server.test.js
+    - tests/brainstorm-server/lifecycle.test.js
+    - tests/brainstorm-server/stop-server.test.sh
+    - tests/brainstorm-server/auth.test.js
+    - tests/brainstorm-server/helper.test.js
+    - tests/brainstorm-server/windows-lifecycle.test.sh
+    - tests/antigravity/run-tests.sh
+    - tests/antigravity/test-antigravity-tools.sh
+    - tests/kimi/run-tests.sh
+    - tests/kimi/test-plugin-manifest.sh
+    - tests/opencode/setup.sh
+    - tests/opencode/test-bootstrap-caching.sh
+    - tests/opencode/run-tests.sh
+    - tests/opencode/test-priority.sh
+    - tests/opencode/test-bootstrap-caching.mjs
+    - tests/opencode/test-plugin-loading.sh
+    - tests/opencode/test-tools.sh
+    - .agents/plugins/marketplace.json
+    - hooks/run-hook.cmd
+    - hooks/hooks-cursor.json
+    - hooks/hooks.json
+    - scripts/bump-version.sh
+    - scripts/sync-to-codex-plugin.sh
+    - scripts/lint-shell.sh
+    - scripts/package-codex-plugin.sh
+    - .claude-plugin/marketplace.json
+    - .claude-plugin/plugin.json
+    - .codex-plugin/plugin.json
+    - .pi/extensions/superpowers.ts
+- **mattpocock (repo-root installers/hooks)** — https://github.com/mattpocock/skills: 7 file(s) OUTSIDE the installed `skills/engineering/` subtree, copied to `_quarantine/mattpocock--repo-root/`. Present in the `.sources` clone only; never installed into `skills/`:
+    - scripts/list-skills.sh
+    - scripts/link-skills.sh
+    - .claude-plugin/marketplace.json
+    - .claude-plugin/plugin.json
+    - skills/misc/git-guardrails-claude-code/scripts/block-dangerous-git.sh
+    - skills/in-progress/setup-ts-deep-modules/dependency-cruiser.config.cjs
+    - skills/in-progress/wizard/template.sh

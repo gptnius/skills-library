@@ -1,0 +1,193 @@
+# Skills-Library install manifest
+# Columns:  mode  key  relpath-in-source  category  install-name
+# mode = one (single skill dir) | pack (whole multi-skill subtree)
+# Lines starting with # and blank lines are ignored. No field may contain spaces.
+
+# ===== 00-direction =====
+one  anthropic  skills/frontend-design                          00-direction  frontend-design
+one  mengto     agent-skills/ui/design-first-ui-prompting        00-direction  design-first-ui-prompting
+
+# ===== 01-copywriting (marketing + email copy) =====
+one  haines     skills/copywriting                               01-copywriting  copywriting
+one  haines     skills/copy-editing                              01-copywriting  copy-editing
+one  haines     skills/product-marketing                         01-copywriting  product-marketing
+one  haines     skills/marketing-psychology                      01-copywriting  marketing-psychology
+one  haines     skills/emails                                    01-copywriting  emails
+one  haines     skills/cold-email                                01-copywriting  cold-email
+one  rampstack  skills/landing-page-copy                         01-copywriting  landing-page-copy
+one  rampstack  skills/content-and-copy                          01-copywriting  content-and-copy
+one  rampstack  skills/email-sequences                           01-copywriting  email-sequences
+one  bora       ogilvy                                           01-copywriting  ogilvy
+
+# ===== 02-fundamentals (typography, color, UI primitives) =====
+one  krehel     skills/better-typography                         02-fundamentals  better-typography
+one  krehel     skills/better-colors                             02-fundamentals  better-colors
+one  krehel     skills/better-ui                                 02-fundamentals  better-ui
+one  krehel     skills/better-layout                             02-fundamentals  better-layout
+one  krehel     skills/better-accessibility                      02-fundamentals  better-accessibility
+one  krehel     skills/better-writing                            02-fundamentals  better-writing
+one  krehel     skills/better-interface                          02-fundamentals  better-interface
+
+# ===== 03-page-and-components =====
+one  mengto     agent-skills/web-design/landing-page             03-page-and-components  landing-page
+one  mengto     agent-skills/web-design/pricing-page             03-page-and-components  pricing-page
+one  mengto     agent-skills/web-design/tailwindcss              03-page-and-components  tailwindcss
+one  mengto     agent-skills/web-design/build-awwwards-quality-sites  03-page-and-components  build-awwwards-quality-sites
+one  ibelick    skills/baseline-ui                               03-page-and-components  baseline-ui
+one  ibelick    skills/improve-ui                                03-page-and-components  improve-ui
+one  ibelick    skills/create-design-md                          03-page-and-components  create-design-md
+one  emil       skills/pick-ui-library                           03-page-and-components  pick-ui-library
+# --- brief-listed but drifted out of Meng To's repo (auto-logged to MISSING.md) ---
+one  mengto     agent-skills/web-design/image-to-code            03-page-and-components  image-to-code
+one  mengto     agent-skills/web-design/design-taste-frontend    03-page-and-components  design-taste-frontend
+one  mengto     agent-skills/web-design/high-end-visual-design   03-page-and-components  high-end-visual-design
+one  mengto     agent-skills/web-design/redesign-existing-projects  03-page-and-components  redesign-existing-projects
+
+# ===== 04-motion =====
+one  mengto     agent-skills/web-design/animation-systems        04-motion  animation-systems
+one  mengto     agent-skills/web-design/gsap                     04-motion  gsap
+one  mengto     agent-skills/web-design/animation-on-scroll      04-motion  animation-on-scroll
+one  mengto     agent-skills/web-design/gsap-scrolltrigger-storytelling  04-motion  gsap-scrolltrigger-storytelling
+one  mengto     agent-skills/web-design/cinematic-scroll-storytelling    04-motion  cinematic-scroll-storytelling
+one  mengto     agent-skills/web-design/cinematic-gsap-lenis-motion-system  04-motion  cinematic-gsap-lenis-motion-system
+one  mengto     agent-skills/web-design/staggered-word-reveal    04-motion  staggered-word-reveal
+one  mengto     agent-skills/web-design/masked-reveal            04-motion  masked-reveal
+one  mengto     agent-skills/web-design/marquee-loop             04-motion  marquee-loop
+one  emil       skills/emil-design-eng                           04-motion  emil-design-eng
+one  emil       skills/apple-design                              04-motion  apple-design
+one  emil       skills/review-animations                         04-motion  review-animations
+one  emil       skills/improve-animations                        04-motion  improve-animations
+one  emil       skills/find-animation-opportunities              04-motion  find-animation-opportunities
+one  emil       skills/animation-vocabulary                      04-motion  animation-vocabulary
+one  emil       skills/prototype                                 04-motion  prototype
+one  lottie     skills/motion-design                             04-motion  motion-design
+
+# ===== 05-effects (CSS + generative/creative-coding) =====
+one  mengto     agent-skills/web-design/progressive-blur         05-effects  progressive-blur
+one  mengto     agent-skills/web-design/css-border-gradient      05-effects  css-border-gradient
+one  mengto     agent-skills/web-design/css-alpha-masking        05-effects  css-alpha-masking
+one  mengto     agent-skills/web-design/beautiful-shadows        05-effects  beautiful-shadows
+one  mengto     agent-skills/web-design/container-lines          05-effects  container-lines
+one  mengto     agent-skills/web-design/corner-diagonals         05-effects  corner-diagonals
+one  mengto     agent-skills/web-design/company-logos            05-effects  company-logos
+one  anthropic  skills/canvas-design                             05-effects  canvas-design
+one  anthropic  skills/algorithmic-art                           05-effects  algorithmic-art
+
+# ===== 06-3d-webgl =====
+one  mengto     agent-skills/web-design/threejs                  06-3d-webgl  threejs
+one  mengto     agent-skills/web-design/webgl-landing-steering   06-3d-webgl  webgl-landing-steering
+one  mengto     agent-skills/web-design/webgl-3d-object          06-3d-webgl  webgl-3d-object
+one  mengto     agent-skills/web-design/add-shader-cursor-trail  06-3d-webgl  add-shader-cursor-trail
+one  mengto     agent-skills/web-design/globe-gl                 06-3d-webgl  globe-gl
+one  mengto     agent-skills/web-design/vantajs                  06-3d-webgl  vantajs
+one  mengto     agent-skills/web-design/unicorn-studio           06-3d-webgl  unicorn-studio
+one  mengto     agent-skills/web-design/gooey-blob-system        06-3d-webgl  gooey-blob-system
+one  mengto     agent-skills/web-design/matterjs                 06-3d-webgl  matterjs
+pack three-agent       skills                                    06-3d-webgl  three-agent-skills
+pack threejs-graphics  skills                                    06-3d-webgl  threejs-graphics
+pack webgl-anim        skills                                    06-3d-webgl  webgl-anim
+
+# ===== 07-audio =====
+one  ui-sound   skills/ui-sound-design                           07-audio  ui-sound-design
+
+# ===== 08-design-systems, tokens & brand =====
+pack design-tokens  .                                            08-design-systems  design-tokens
+one  anthropic   skills/theme-factory                            08-design-systems  theme-factory
+one  anthropic   skills/brand-guidelines                         08-design-systems  brand-guidelines
+one  rampstack   skills/design-system                            08-design-systems  design-system
+one  rampstack   skills/design-standards                         08-design-systems  design-standards
+one  rampstack   skills/brand-identity                           08-design-systems  brand-identity
+one  rampstack   skills/brand-voice                              08-design-systems  brand-voice
+one  rampstack   skills/logo-design                              08-design-systems  logo-design
+one  rampstack   skills/creative-direction                       08-design-systems  creative-direction
+one  rampstack   skills/art-direction                            08-design-systems  art-direction
+
+# ===== 09-dataviz =====
+pack dataviz-skill  .                                            09-dataviz  dataviz-skill
+
+# ===== 10-content-ux (product writing, forms, onboarding, IA, research, i18n) =====
+one  rampstack  skills/information-architecture                  10-content-ux  information-architecture
+one  rampstack  skills/form-strategy                             10-content-ux  form-strategy
+one  rampstack  skills/multi-step-form-design                    10-content-ux  multi-step-form-design
+one  rampstack  skills/onboarding-wizard-design                  10-content-ux  onboarding-wizard-design
+one  rampstack  skills/interactive-product-tour                  10-content-ux  interactive-product-tour
+one  rampstack  skills/journey-mapping                           10-content-ux  journey-mapping
+one  rampstack  skills/ux-research                               10-content-ux  ux-research
+one  rampstack  skills/usability-testing                         10-content-ux  usability-testing
+one  rampstack  skills/discovery-research-synthesis              10-content-ux  discovery-research-synthesis
+one  rampstack  skills/internationalization                      10-content-ux  internationalization
+one  haines     skills/onboarding                                10-content-ux  onboarding
+one  haines     skills/customer-research                         10-content-ux  customer-research
+
+# ===== 11-quality-audit (a11y, metadata, perf, CWV, SEO, CRO) =====
+one  ibelick    skills/fixing-accessibility                      11-quality-audit  fixing-accessibility
+one  ibelick    skills/fixing-metadata                           11-quality-audit  fixing-metadata
+one  ibelick    skills/fixing-motion-performance                 11-quality-audit  fixing-motion-performance
+one  mengto     agent-skills/codex/optimize-web-animations       11-quality-audit  optimize-web-animations
+one  mengto     agent-skills/codex/performance-profiling         11-quality-audit  performance-profiling
+one  haines     skills/cro                                       11-quality-audit  cro
+one  haines     skills/ab-testing                                11-quality-audit  ab-testing
+one  haines     skills/schema                                    11-quality-audit  schema
+one  haines     skills/seo-audit                                 11-quality-audit  seo-audit
+one  rampstack  skills/accessibility-audit                       11-quality-audit  accessibility-audit
+one  anthropic  skills/webapp-testing                            11-quality-audit  webapp-testing
+pack web-quality  skills                                         11-quality-audit  web-quality
+# --- brief-listed but drifted out of Meng To's repo (auto-logged to MISSING.md) ---
+one  mengto     agent-skills/web-design/seo-audit                11-quality-audit  mengto-seo-audit
+
+# ===== 12-mobile (React Native / Expo / app stores) =====
+pack expo       plugins/expo/skills                              12-mobile  expo
+one  callstack  skills/react-native-best-practices               12-mobile  react-native-best-practices
+one  callstack  skills/upgrading-react-native                    12-mobile  upgrading-react-native
+one  callstack  skills/react-native-brownfield-migration         12-mobile  react-native-brownfield-migration
+one  callstack  skills/assess-react-native-migration             12-mobile  assess-react-native-migration
+one  callstack  skills/create-react-native-library               12-mobile  create-react-native-library
+one  callstack  skills/react-native-tv-best-practices            12-mobile  react-native-tv-best-practices
+one  callstack  skills/react-navigation                          12-mobile  react-navigation
+one  haines     skills/aso                                       12-mobile  aso
+
+# ===== 13-games (packs; caution packs are per-project opt-in) =====
+pack mengto           agent-skills/game-development               13-games  mengto-game-dev
+pack awesome-gamedev  .                                           13-games  awesome-gamedev
+pack godotprompter    skills                                      13-games  godotprompter
+pack phaser4          skills                                      13-games  phaser4
+pack threejs-game     skills                                      13-games  threejs-game
+
+# ===== 14-style-directions (reusable Meng To stylecards) =====
+one  mengto  agent-skills/web-design/dark-glass-clean-layout      14-style-directions  dark-glass-clean-layout
+one  mengto  agent-skills/web-design/glass-dark-ui                14-style-directions  glass-dark-ui
+one  mengto  agent-skills/web-design/mesh-gradient-dark-blue-clean  14-style-directions  mesh-gradient-dark-blue-clean
+one  mengto  agent-skills/web-design/clean-minimal-beige-light-mode  14-style-directions  clean-minimal-beige-light-mode
+one  mengto  agent-skills/web-design/editorial-tech               14-style-directions  editorial-tech
+one  mengto  agent-skills/web-design/orange-clean-paper-saas      14-style-directions  orange-clean-paper-saas
+one  mengto  agent-skills/web-design/skeuomorphic-ui              14-style-directions  skeuomorphic-ui
+one  mengto  agent-skills/web-design/split-layout-technical       14-style-directions  split-layout-technical
+one  mengto  agent-skills/web-design/image-first-grid-layout      14-style-directions  image-first-grid-layout
+one  mengto  agent-skills/web-design/agency-grid-layout-minimal   14-style-directions  agency-grid-layout-minimal
+one  mengto  agent-skills/web-design/documentary-brutalist-agency  14-style-directions  documentary-brutalist-agency
+one  mengto  agent-skills/web-design/product-proof-saas           14-style-directions  product-proof-saas
+
+# ===== 16-engineering (software engineering; caution packs -> markdown-only) =====
+one  karpathy        skills/karpathy-guidelines                    16-engineering  karpathy-guidelines
+pack addyosmani-eng  skills                                        16-engineering  addyosmani-agent-skills
+pack superpowers     skills                                        16-engineering  superpowers
+pack mattpocock      skills/engineering                            16-engineering  mattpocock-engineering
+one  getsentry       skills/find-bugs                              16-engineering  find-bugs
+one  getsentry       skills/agents-md                              16-engineering  agents-md
+one  getsentry       skills/document-api-endpoint                  16-engineering  document-api-endpoint
+
+# ===== 17-ai-llm-eng (AI/LLM engineering) =====
+one  getsentry       skills/prompt-optimizer                       17-ai-llm-eng  prompt-optimizer
+
+# ===== 18-security (security engineering) =====
+one  getsentry       skills/skill-scanner                          18-security  skill-scanner
+one  getsentry       skills/security-review                        18-security  security-review
+one  getsentry       skills/gha-security-review                    18-security  gha-security-review
+
+# ===== 15-workflow-capture (Meng To inspiration -> prompt pipelines) =====
+one  mengto  agent-skills/codex/daily-ui-inspiration-capture      15-workflow-capture  daily-ui-inspiration-capture
+one  mengto  agent-skills/codex/stitched-full-page-capture        15-workflow-capture  stitched-full-page-capture
+one  mengto  agent-skills/codex/html-to-interaction-prompts       15-workflow-capture  html-to-interaction-prompts
+one  mengto  agent-skills/codex/video-to-superprompt              15-workflow-capture  video-to-superprompt
+one  mengto  agent-skills/codex/build-daily-inspiration-sites     15-workflow-capture  build-daily-inspiration-sites
+one  mengto  agent-skills/codex/article-prompts-to-skills         15-workflow-capture  article-prompts-to-skills

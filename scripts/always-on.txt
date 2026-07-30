@@ -1,0 +1,39 @@
+# always-on.txt — the core skill set symlinked globally into ~/.claude/skills by activate.sh.
+# One entry per line: <category>/<name> (path under skills/). Comments (#) and blanks ignored.
+# Keep this tight (~15-20). Everything else lives in the library and is activated per project
+# via project-activate.sh. Each entry MUST point to a dir containing a SKILL.md.
+
+# --- direction (invoked first, every new page) ---
+00-direction/frontend-design
+00-direction/design-first-ui-prompting
+
+# --- copywriting (words before pixels) ---
+01-copywriting/copywriting
+01-copywriting/copy-editing
+01-copywriting/landing-page-copy
+
+# --- fundamentals ---
+02-fundamentals/better-typography
+02-fundamentals/better-colors
+02-fundamentals/better-ui
+
+# --- page & components ---
+03-page-and-components/landing-page
+03-page-and-components/tailwindcss
+03-page-and-components/baseline-ui
+
+# --- motion (build + judge) ---
+04-motion/animation-systems
+04-motion/gsap
+04-motion/emil-design-eng
+
+# --- design systems ---
+08-design-systems/design-tokens
+
+# --- ship gate ---
+11-quality-audit/fixing-accessibility
+11-quality-audit/fixing-metadata
+11-quality-audit/web-quality/web-quality-audit
+
+# --- engineering discipline (universal, tiny) ---
+16-engineering/karpathy-guidelines
