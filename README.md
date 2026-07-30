@@ -160,7 +160,7 @@ LIB="$HOME/Desktop/Skills-Library"   # or wherever you cloned this repo (scripts
 | [flowful-ai/cad-skill](https://github.com/flowful-ai/cad-skill) | Nicolas Chourrout (Flowful.ai) | **PolyForm Noncommercial — commercial use prohibited** | ⚠️ Python incl. a subprocess runner quarantined |
 | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | K-Dense Inc. | MIT top-level; **per-skill licenses vary** | ⚠️ 531 scripts quarantined; 13 skills license-pruned (`scripts/kdense-exclude.txt`) |
 | [cameronfreer/lean4-skills](https://github.com/cameronfreer/lean4-skills) | Cameron Freer | MIT | ⚠️ SessionStart/UserPromptSubmit/PreToolUse hooks + bin/ wrappers quarantined |
-| [antonbabenko/terraform-skill](https://github.com/antonbabenko/terraform-skill) | Anton Babenko (AWS Community Hero) | Apache-2.0 | ✅ clean after tree audit |
+| [antonbabenko/terraform-skill](https://github.com/antonbabenko/terraform-skill) | Anton Babenko (AWS Community Hero) | Apache-2.0 | ✅ skill content markdown-only; repo CI/release JS quarantined |
 | [samber/cc-skills-golang](https://github.com/samber/cc-skills-golang) | Samuel Berthe (author of `lo`) | MIT | ⚠️ reviewed; AI-bootstrapped content, human-reviewed (disclosed) |
 | [leonardomso/rust-skills](https://github.com/leonardomso/rust-skills) | Leonardo Maldonado | MIT | ⚠️ CI/check scripts quarantined |
 
