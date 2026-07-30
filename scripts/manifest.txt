@@ -190,6 +190,56 @@ one  terraform-skill  skills/terraform-skill                         16-engineer
 pack golang-skills    skills                                         16-engineering  golang
 one  rust-skills      .                                              16-engineering  rust-skills
 
+# ===== 17-ai-llm-eng: agent-engineering base from already-vetted sources =====
+one  anthropic  skills/mcp-builder                                   17-ai-llm-eng  mcp-builder
+one  anthropic  skills/skill-creator                                 17-ai-llm-eng  skill-creator
+one  getsentry  skills/skill-writer                                  17-ai-llm-eng  skill-writer
+
+# ===== 21-marketing (organic marketing, social, SEO depth, growth) =====
+# --- haines: organic & social & strategy ---
+one  haines     skills/social                                        21-marketing  social
+one  haines     skills/content-strategy                              21-marketing  content-strategy
+one  haines     skills/programmatic-seo                              21-marketing  programmatic-seo
+one  haines     skills/ai-seo                                        21-marketing  ai-seo
+one  haines     skills/launch                                        21-marketing  launch
+one  haines     skills/marketing-plan                                21-marketing  marketing-plan
+one  haines     skills/marketing-ideas                               21-marketing  marketing-ideas
+one  haines     skills/marketing-loops                               21-marketing  marketing-loops
+one  haines     skills/community-marketing                           21-marketing  community-marketing
+one  haines     skills/influencer-marketing                          21-marketing  influencer-marketing
+one  haines     skills/referrals                                     21-marketing  referrals
+one  haines     skills/analytics                                     21-marketing  analytics
+one  haines     skills/attribution                                   21-marketing  attribution
+one  haines     skills/lead-magnets                                  21-marketing  lead-magnets
+one  haines     skills/offers                                        21-marketing  offers
+one  haines     skills/pricing                                       21-marketing  pricing
+one  haines     skills/popups                                        21-marketing  popups
+one  haines     skills/signup                                        21-marketing  signup
+one  haines     skills/site-architecture                             21-marketing  site-architecture
+one  haines     skills/public-relations                              21-marketing  public-relations
+one  haines     skills/co-marketing                                  21-marketing  co-marketing
+one  haines     skills/directory-submissions                         21-marketing  directory-submissions
+one  haines     skills/free-tools                                    21-marketing  free-tools
+# --- rampstack: SEO depth + content ops ---
+one  rampstack  skills/seo-aeo-geo                                   21-marketing  seo-aeo-geo
+one  rampstack  skills/seo-audit-orchestration                       21-marketing  seo-audit-orchestration
+one  rampstack  skills/seo-backlink-audit                            21-marketing  seo-backlink-audit
+one  rampstack  skills/seo-competitor                                21-marketing  seo-competitor
+one  rampstack  skills/seo-content-audit                             21-marketing  seo-content-audit
+one  rampstack  skills/seo-content-gap-audit                         21-marketing  seo-content-gap-audit
+one  rampstack  skills/seo-keyword                                   21-marketing  seo-keyword
+one  rampstack  skills/seo-keyword-gap-audit                         21-marketing  seo-keyword-gap-audit
+one  rampstack  skills/seo-offpage                                   21-marketing  seo-offpage
+one  rampstack  skills/seo-onpage                                    21-marketing  seo-onpage
+one  rampstack  skills/seo-rank-tracking                             21-marketing  seo-rank-tracking
+one  rampstack  skills/seo-site-health-audit                         21-marketing  seo-site-health-audit
+one  rampstack  skills/seo-technical                                 21-marketing  seo-technical
+one  rampstack  skills/seo-traffic-diagnosis                         21-marketing  seo-traffic-diagnosis
+one  rampstack  skills/content-distribution                          21-marketing  content-distribution
+one  rampstack  skills/content-repurposing                           21-marketing  content-repurposing
+one  rampstack  skills/pillar-content-architecture                   21-marketing  pillar-content-architecture
+one  rampstack  skills/content-refresh-system                        21-marketing  content-refresh-system
+
 # ===== 14-style-directions (reusable Meng To stylecards) =====
 one  mengto  agent-skills/web-design/dark-glass-clean-layout      14-style-directions  dark-glass-clean-layout
 one  mengto  agent-skills/web-design/glass-dark-ui                14-style-directions  glass-dark-ui

@@ -81,6 +81,23 @@ The verified pattern: prose-only "research guidance" is mostly LLM-native; these
 3. **Rust:** `16-engineering/rust-skills` ⚠️ (leonardomso — 265 rules, Rust 1.96/2024 edition).
 4. **General CI/CD & observability:** `16-engineering/addyosmani-agent-skills` (ci-cd-and-automation, observability-and-instrumentation).
 
+## Marketing & growth (organic-first)
+
+1. **Strategy:** `21-marketing/marketing-plan`, `marketing-ideas`, `marketing-loops` (compounding growth loops), `content-strategy`.
+2. **Organic / social:** `21-marketing/social` (social-media marketing), `community-marketing`, `influencer-marketing`, `public-relations`, `co-marketing`, `referrals`.
+3. **SEO:** haines `21-marketing/programmatic-seo` + `ai-seo` (AI-search/answer-engine era) + `site-architecture`; rampstack depth per task — `seo-keyword`/`seo-keyword-gap-audit` (research), `seo-onpage`/`seo-technical`/`seo-site-health-audit` (fix), `seo-backlink-audit`/`seo-offpage` (authority), `seo-rank-tracking`/`seo-traffic-diagnosis` (monitor), `seo-aeo-geo` (AI answer engines), `seo-audit-orchestration` (runs the others). Ship-gate basics stay in `11-quality-audit` (`seo-audit`, `schema`, `fixing-metadata`).
+4. **Content ops:** `21-marketing/pillar-content-architecture`, `content-distribution`, `content-repurposing`, `content-refresh-system`.
+5. **Conversion & monetization:** `21-marketing/offers`, `pricing`, `lead-magnets`, `popups`, `signup`, `free-tools`, `launch`; measure with `analytics` + `attribution`. (CRO itself: `11-quality-audit/cro` + `ab-testing`.)
+6. **Copy for all of it:** `01-copywriting/*` (see stage 2 of the website flow).
+
+## AI / LLM & agent engineering
+
+1. **Build agent tools:** `17-ai-llm-eng/mcp-builder` (Anthropic — MCP servers) + the env's `claude-api` skill.
+2. **Author skills:** `17-ai-llm-eng/skill-creator` (Anthropic) + `skill-writer` (Sentry) + `16-engineering/superpowers/writing-skills`.
+3. **Prompts & context:** `17-ai-llm-eng/prompt-optimizer` (Sentry, evals-driven) + `16-engineering/addyosmani-agent-skills/context-engineering`.
+4. **Multi-agent:** `16-engineering/superpowers` — `subagent-driven-development`, `dispatching-parallel-agents`.
+5. **Safety:** `18-security/skill-scanner` before adopting any third-party skill.
+
 ## One primary per lane (avoid conflicting guidance)
 
 Several skills overlap. Pick one primary; the others are benched alternatives:

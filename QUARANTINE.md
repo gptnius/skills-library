@@ -205,6 +205,22 @@ _Generated 2026-07-30. Skills whose source directory shipped executable code or 
     - checks/check.sh
     - checks/analyze.py
     - checks/gen_index.py
+- **anthropic--mcp-builder** — from `https://github.com/anthropics/skills`: 2 executable/hook file(s) quarantined (not installed, not activated). Types:
+    - scripts/evaluation.py
+    - scripts/connections.py
+- **anthropic--skill-creator** — from `https://github.com/anthropics/skills`: 10 executable/hook file(s) quarantined (not installed, not activated). Types:
+    - eval-viewer/generate_review.py
+    - scripts/run_eval.py
+    - scripts/package_skill.py
+    - scripts/quick_validate.py
+    - scripts/improve_description.py
+    - scripts/aggregate_benchmark.py
+    - scripts/__init__.py
+    - scripts/run_loop.py
+    - scripts/generate_report.py
+    - scripts/utils.py
+- **getsentry--skill-writer** — from `https://github.com/getsentry/skills`: 1 executable/hook file(s) quarantined (not installed, not activated). Types:
+    - scripts/quick_validate.py
 - **addyosmani-eng--addyosmani-agent-skills** — from `https://github.com/addyosmani/agent-skills`: 1 executable/hook file(s) quarantined (not installed, not activated). Types:
     - idea-refine/scripts/idea-refine.sh
 - **superpowers--superpowers** — from `https://github.com/obra/superpowers`: 7 executable/hook file(s) quarantined (not installed, not activated). Types:

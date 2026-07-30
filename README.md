@@ -2,7 +2,7 @@
 
 A curated, documented, locally-accessible library of **AI agent skills** (`SKILL.md` packages) for building **websites, apps, and games** — UI, UX, copywriting, motion, 3D/WebGL, effects, design systems, data viz, mobile, game development, and the **software-engineering lifecycle** (code review, TDD, debugging, CI/CD, security, AI/LLM).
 
-**Built 2026-07-30 · 683 skills · 171 top-level entries · 21 categories · 45 vetted source repos.**
+**Built 2026-07-30 · 727 skills · 215 top-level entries · 22 categories · 45 vetted source repos.**
 
 Every skill was pulled from a named source repo, security-reviewed, and stripped of executable code before install. See [`INDEX.md`](INDEX.md) for the full catalog and [`WORKFLOW.md`](WORKFLOW.md) for which skill to reach for at each stage.
 
