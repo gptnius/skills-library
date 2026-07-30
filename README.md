@@ -1,6 +1,8 @@
 # Skills-Library
 
-A curated, documented, locally-accessible library of **AI agent skills** (`SKILL.md` packages) for building **websites, apps, and games** — UI, UX, copywriting, motion, 3D/WebGL, effects, design systems, data viz, mobile, game development, and the **software-engineering lifecycle** (code review, TDD, debugging, CI/CD, security, AI/LLM).
+A curated, documented, locally-accessible library of **AI agent skills** (`SKILL.md` packages) for building **websites, apps, and games** — UI, UX, copywriting, motion, 3D/WebGL, effects, design systems, data viz, mobile (SwiftUI/Compose/Flutter/RN), game development, 3D modeling & CAD, research & science, marketing & SEO, agent engineering, and the **software-engineering lifecycle** (code review, TDD, debugging, CI/CD, security).
+
+Works with any agent that reads the `SKILL.md` format — Claude Code, Codex, Cursor.
 
 **Built 2026-07-30 · 732 skills · 220 top-level entries · 22 categories · 46 vetted source repos.**
 
@@ -18,8 +20,35 @@ LIBRARY (source of truth)          ACTIVATION (what agents load)
 
 Claude Code only discovers skills as **immediate** subdirectories of `~/.claude/skills/` or `<project>/.claude/skills/` (each containing a `SKILL.md`). This library keeps everything organized in **numbered category folders** for browsing, then *activates* a chosen subset by symlinking it **flat** into those locations. Edit a skill once here; every project that links it sees the change.
 
-- **Library = categorized** (`skills/00-direction/…` → `skills/15-workflow-capture/…`) for navigation.
+- **Library = categorized** (`skills/00-direction/…` → `skills/21-marketing/…`) for navigation.
 - **Activation = flat** because the loader doesn't scan nested folders.
+
+### Categories
+
+| # | Category | What lives here |
+|---|---|---|
+| `00` | direction | Aesthetic direction & structured prompting — invoked first |
+| `01` | copywriting | Marketing, conversion & email copy |
+| `02` | fundamentals | Typography, color, UI primitives |
+| `03` | page-and-components | Page structure, Tailwind, component libraries |
+| `04` | motion | Animation systems, GSAP, motion taste & review |
+| `05` | effects | CSS effects, generative & creative coding |
+| `06` | 3d-webgl | Three.js, R3F, GLSL/TSL shaders, procedural graphics |
+| `07` | audio | UI sound design & Web Audio |
+| `08` | design-systems | Tokens, theming, brand identity |
+| `09` | dataviz | Charts, dashboards, analytics UIs |
+| `10` | content-ux | Product writing, forms, onboarding, IA, research, i18n |
+| `11` | quality-audit | A11y, metadata, performance/CWV, SEO, CRO — the ship gate |
+| `12` | mobile | SwiftUI, Jetpack Compose, Flutter/Dart, React Native/Expo, ASO |
+| `13` | games | Web/native/mobile game dev, game feel, engines |
+| `14` | style-directions | Reusable visual stylecards |
+| `15` | workflow-capture | Inspiration → prompt pipelines |
+| `16` | engineering | SWE lifecycle: review, TDD, debugging, git, docs, CI/CD, Terraform, Go, Rust |
+| `17` | ai-llm-eng | Agent engineering: MCP, skill authoring, orchestration, memory/context |
+| `18` | security | Secure coding, security review, skill & supply-chain scanning |
+| `19` | 3d-cad | Blender, OpenSCAD/code-CAD, CadQuery, 3D-printing prep |
+| `20` | research-science | Scientific computing, database toolchains, formal math (Lean 4) |
+| `21` | marketing | Organic/social, content strategy, SEO depth, launch, analytics |
 
 ---
 
@@ -59,11 +88,15 @@ LIB="$HOME/Desktop/Skills-Library"   # or wherever you cloned this repo (scripts
 | File | What it is |
 |---|---|
 | [`INDEX.md`](INDEX.md) | Every installed skill, grouped by category, one line each. ★ = always-on, ⚠️ = had quarantined code. **The file to skim when deciding what to use.** |
-| [`WORKFLOW.md`](WORKFLOW.md) | Stage-by-stage map: which skills at direction → copy → structure → motion → 3D → review → ship, plus game & mobile flows. |
+| [`WORKFLOW.md`](WORKFLOW.md) | Stage-by-stage map: direction → copy → structure → motion → 3D → review → ship, plus games, mobile, engineering, 3D/CAD, science, marketing & agent flows. |
 | [`MAINTENANCE.md`](MAINTENANCE.md) | How to update, add, remove skills; watch-items. |
 | [`QUARANTINE.md`](QUARANTINE.md) | Every executable/hook file that shipped with a source, why it's quarantined, and where it lives. Nothing here runs unless you run it. |
 | [`MISSING.md`](MISSING.md) | Brief-listed skills that no longer exist upstream (source drift). |
-| [`manifest.json`](manifest.json) | Machine-readable mirror of the index for future sessions. |
+| [`manifest.json`](manifest.json) | Machine-readable mirror of the index — query the library without parsing prose. |
+| [`ATTRIBUTION.md`](ATTRIBUTION.md) | Every source repo, author, and license. Regenerated on each build. |
+| [`LICENSE`](LICENSE) | MIT — covers **only** the scripts/manifest/docs in this repo, not the skills. |
+| [`scripts/sources.txt`](scripts/sources.txt) | The source-of-truth repo list `bootstrap.sh` clones from, with license flags. |
+| [`scripts/manifest.txt`](scripts/manifest.txt) | The curation decisions: which skill from which repo lands in which category. |
 
 ---
 
