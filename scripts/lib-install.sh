@@ -55,6 +55,14 @@ meta_url() { case "$1" in
   unity-official) echo "https://github.com/Unity-Technologies/skills";;
   unity-shaders) echo "https://github.com/adevra/unity-shader-agent-skills";;
   godot-dojo) echo "https://github.com/Randroids-Dojo/skills";;
+  blender-ra100) echo "https://github.com/ra100/blender-claude-plugin";;
+  agent-stuff) echo "https://github.com/mitsuhiko/agent-stuff";;
+  cad-skill) echo "https://github.com/flowful-ai/cad-skill";;
+  kdense) echo "https://github.com/K-Dense-AI/scientific-agent-skills";;
+  lean4) echo "https://github.com/cameronfreer/lean4-skills";;
+  terraform-skill) echo "https://github.com/antonbabenko/terraform-skill";;
+  golang-skills) echo "https://github.com/samber/cc-skills-golang";;
+  rust-skills) echo "https://github.com/leonardomso/rust-skills";;
   *) echo "unknown";; esac; }
 
 meta_author() { case "$1" in
@@ -95,6 +103,14 @@ meta_author() { case "$1" in
   unity-official) echo "Unity Technologies (official)";;
   unity-shaders) echo "Anil Devran (adevra)";;
   godot-dojo) echo "Randroids Dojo";;
+  blender-ra100) echo "ra100";;
+  agent-stuff) echo "Armin Ronacher (mitsuhiko, creator of Flask/Jinja2)";;
+  cad-skill) echo "Nicolas Chourrout (Flowful.ai)";;
+  kdense) echo "K-Dense Inc.";;
+  lean4) echo "Cameron Freer (cfreer.org)";;
+  terraform-skill) echo "Anton Babenko (AWS Community Hero, terraform-aws-modules)";;
+  golang-skills) echo "Samuel Berthe (samber, author of lo/mo/do)";;
+  rust-skills) echo "Leonardo Maldonado (leonardomso, 33-js-concepts)";;
   *) echo "unknown";; esac; }
 
 meta_license() { case "$1" in
@@ -105,6 +121,10 @@ meta_license() { case "$1" in
   compose-perf) echo "Apache-2.0";;
   dart-official|flutter-official) echo "BSD-3-Clause";;
   unity-official) echo "Unity Companion License (UCL) — NON-OSI: use restricted to Unity-engine projects; no competitive analysis";;
+  blender-ra100|lean4|golang-skills|rust-skills) echo "MIT";;
+  agent-stuff|terraform-skill) echo "Apache-2.0";;
+  cad-skill) echo "PolyForm Noncommercial 1.0.0 — NON-OSI: COMMERCIAL USE PROHIBITED";;
+  kdense) echo "MIT (top-level) — PER-SKILL licenses vary (see each SKILL.md license: field)";;
   getsentry) echo "Apache-2.0";;
   karpathy) echo "MIT asserted (frontmatter/README/plugin.json) — NO LICENSE file (unconfirmed)";;
   awesome-gamedev) echo "Apache-2.0";;

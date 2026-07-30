@@ -60,6 +60,27 @@ These are the `16-engineering` / `17-ai-llm-eng` / `18-security` categories — 
 
 **One primary per lane (engineering):** TDD/debugging/code-review appear in `addyosmani`, `superpowers`, and `mattpocock`. Default primary: **`superpowers`** for debugging/TDD workflow rigor, **`addyosmani`** for breadth. Pick one per project to avoid conflicting guidance.
 
+## 3D modeling & CAD
+
+1. **Blender:** `19-3d-cad/blender` — geometry nodes, shader nodes, compositing, `bpy` Python scripting, rigging, physics, rendering.
+2. **Code-CAD / 3D printing:** `19-3d-cad/openscad` ⚠️ (Armin Ronacher — model → render → STL export; its helper scripts are quarantined, and it expects a local OpenSCAD install) and `19-3d-cad/cadquery-noncommercial` ⚠️ (**PolyForm Noncommercial license — no commercial use**; CadQuery → STL/3MF workflow).
+3. **Game-adjacent 3D assets:** reuse `06-3d-webgl/threejs-graphics` (procedural geometry/materials) and `13-games/awesome-gamedev` shader/procgen disciplines.
+
+## Research, science & math
+
+The verified pattern: prose-only "research guidance" is mostly LLM-native; these earn their place by shipping **toolchain workflows** (their scripts are quarantined — re-enable per project after reading them).
+
+1. **Scientific computing & analysis:** `20-research-science/scientific-skills` ⚠️ — 145 skills (license-pruned): sympy (math), matplotlib/polars (analysis), astropy, biopython, deepchem, clinical research, scientific writing. Per-skill licenses vary — check the skill's frontmatter before redistribution.
+2. **Formal math / proofs:** `20-research-science/lean4` ⚠️ — Lean 4 workflows (draft → formalize → prove → disprove → review). Full value needs its quarantined toolchain hooks reviewed + a local Lean install.
+3. **Data viz:** `09-dataviz` + the built-in `dataviz` skill.
+
+## DevOps & languages
+
+1. **Terraform/IaC:** `16-engineering/terraform` (Anton Babenko — native tests, module structure, state management, CI/CD, trivy/checkov).
+2. **Go:** `16-engineering/golang` ⚠️ (samber — 46 skills: style, testing, concurrency, DB, DI, observability, security).
+3. **Rust:** `16-engineering/rust-skills` ⚠️ (leonardomso — 265 rules, Rust 1.96/2024 edition).
+4. **General CI/CD & observability:** `16-engineering/addyosmani-agent-skills` (ci-cd-and-automation, observability-and-instrumentation).
+
 ## One primary per lane (avoid conflicting guidance)
 
 Several skills overlap. Pick one primary; the others are benched alternatives:

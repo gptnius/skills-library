@@ -2,7 +2,7 @@
 
 A curated, documented, locally-accessible library of **AI agent skills** (`SKILL.md` packages) for building **websites, apps, and games** — UI, UX, copywriting, motion, 3D/WebGL, effects, design systems, data viz, mobile, game development, and the **software-engineering lifecycle** (code review, TDD, debugging, CI/CD, security, AI/LLM).
 
-**Built 2026-07-30 · 479 skills · 163 top-level entries · 19 categories · 37 vetted source repos.**
+**Built 2026-07-30 · 683 skills · 171 top-level entries · 21 categories · 45 vetted source repos.**
 
 Every skill was pulled from a named source repo, security-reviewed, and stripped of executable code before install. See [`INDEX.md`](INDEX.md) for the full catalog and [`WORKFLOW.md`](WORKFLOW.md) for which skill to reach for at each stage.
 
@@ -118,6 +118,23 @@ LIB="$HOME/Desktop/Skills-Library"   # or wherever you cloned this repo (scripts
 
 > Discovery pipeline for future Apple-ecosystem additions: [twostraws/Swift-Agent-Skills](https://github.com/twostraws/Swift-Agent-Skills) — Paul Hudson's curated directory (MIT, index-only). Review each linked repo before adding; listing ≠ endorsement.
 
+### 3D/CAD, science & DevOps (4th research pass)
+
+| Repo | Author | License | Security |
+|---|---|---|---|
+| [ra100/blender-claude-plugin](https://github.com/ra100/blender-claude-plugin) | ra100 | MIT | ✅ markdown-only (low-adoption, watch for abandonment) |
+| [mitsuhiko/agent-stuff](https://github.com/mitsuhiko/agent-stuff) (`openscad` only) | Armin Ronacher (Flask/Jinja2 creator) | Apache-2.0 | ⚠️ 7 shell tools quarantined; targets his Pi agent — needs a local OpenSCAD |
+| [flowful-ai/cad-skill](https://github.com/flowful-ai/cad-skill) | Nicolas Chourrout (Flowful.ai) | **PolyForm Noncommercial — commercial use prohibited** | ⚠️ Python incl. a subprocess runner quarantined |
+| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | K-Dense Inc. | MIT top-level; **per-skill licenses vary** | ⚠️ 531 scripts quarantined; 13 skills license-pruned (`scripts/kdense-exclude.txt`) |
+| [cameronfreer/lean4-skills](https://github.com/cameronfreer/lean4-skills) | Cameron Freer | MIT | ⚠️ SessionStart/UserPromptSubmit/PreToolUse hooks + bin/ wrappers quarantined |
+| [antonbabenko/terraform-skill](https://github.com/antonbabenko/terraform-skill) | Anton Babenko (AWS Community Hero) | Apache-2.0 | ✅ clean after tree audit |
+| [samber/cc-skills-golang](https://github.com/samber/cc-skills-golang) | Samuel Berthe (author of `lo`) | MIT | ⚠️ reviewed; AI-bootstrapped content, human-reviewed (disclosed) |
+| [leonardomso/rust-skills](https://github.com/leonardomso/rust-skills) | Leonardo Maldonado | MIT | ⚠️ CI/check scripts quarantined |
+
+> **Science/math verdict** (from adversarial verification): prose-only research guidance is largely LLM-native; skills earn their place when they ship workflow machinery — database integrations, analysis scripts, proof-toolchain loops. That machinery is quarantined here by policy: read it, then re-enable per project.
+>
+> **Also examined and skipped:** jahro-console/unity-agent-skills (vendor console, not mobile engineering), sickn33 unity-ai-game-creator (safe but shallow), htdt/godogen (failed verification), muratcankoylan context-engineering (hype + launchd daemons).
+
 ### Gap-fill candidates (vetted during build)
 
 | Repo | Author | License | Result |
@@ -145,7 +162,7 @@ LIB="$HOME/Desktop/Skills-Library"   # or wherever you cloned this repo (scripts
 
 - **shadcn/ui** is *not* vendored. Install it per-project with the official tooling: `npx shadcn@latest mcp init` (see <https://ui.shadcn.com/docs/skills>). Pairs with `03-page-and-components/baseline-ui`.
 - **Data viz:** a first-party Anthropic `dataviz` skill also ships with Claude Code independently of this library; `09-dataviz/dataviz-skill` is a community complement (license caveat above).
-- **Still thin / unfilled** (documented in `MISSING.md`): dedicated **native mobile-game** engines (Unity/Godot mobile beyond GodotPrompter's one skill), standalone **AR/VR/WebXR** (partial via GodotPrompter `xr-development`), deep **email design** systems, deep **DevOps/SRE** (Kubernetes, Terraform/IaC, incident response — partial via `addyosmani-agent-skills` CI/CD + observability), and **Rust/Go** language best-practices. Game **audio**, **shaders**, **procedural generation**, **i18n**, **brand identity**, **forms/onboarding**, and **user research** are covered via the packs and gap-fillers noted in `INDEX.md`.
+- **Still thin / unfilled** (documented in `MISSING.md`): dedicated **native mobile-game** engines (Unity/Godot mobile beyond GodotPrompter's one skill), standalone **AR/VR/WebXR** (partial via GodotPrompter `xr-development`), deep **email design** systems, deep **Kubernetes/SRE** (Terraform, Go, Rust now covered in `16-engineering`). Game **audio**, **shaders**, **procedural generation**, **i18n**, **brand identity**, **forms/onboarding**, and **user research** are covered via the packs and gap-fillers noted in `INDEX.md`.
 - **Caution packs** (`⚠️` in the index) are best kept **per-project**, not global — activate only what a project needs with `project-activate.sh`.
 
 ## License & attribution

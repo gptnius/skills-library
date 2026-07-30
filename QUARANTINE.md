@@ -136,6 +136,75 @@ _Generated 2026-07-30. Skills whose source directory shipped executable code or 
     - threejs-gameplay-systems/assets/threejs-vite-game/src/entities/Player.ts
     - threejs-image-generator/scripts/generate_image.py
     - threejs-audio-generator/scripts/threejs_audio_asset.py
+- **agent-stuff--openscad** — from `https://github.com/mitsuhiko/agent-stuff`: 7 executable/hook file(s) quarantined (not installed, not activated). Types:
+    - tools/render-with-params.sh
+    - tools/common.sh
+    - tools/validate.sh
+    - tools/extract-params.sh
+    - tools/preview.sh
+    - tools/export-stl.sh
+    - tools/multi-preview.sh
+- **cad-skill--cadquery-noncommercial** — from `https://github.com/flowful-ai/cad-skill`: 13 executable/hook file(s) quarantined (not installed, not activated). Types:
+    - preview.py
+    - stl_to_3mf.py
+    - run_cadquery_model.py
+    - outline_from_scan.py
+    - gridfinity.py
+    - mesh_io.py
+    - tests/conftest.py
+    - tests/test_run_wrapper.py
+    - tests/test_mesh_io.py
+    - tests/test_gridfinity.py
+    - tests/test_stl_to_3mf.py
+    - examples/gridfinity_d110_bin.py
+    - examples/mx_master3_bin_3x3.py
+- **kdense--scientific-skills** — from `https://github.com/K-Dense-AI/scientific-agent-skills`: 531 executable/hook file(s) quarantined (not installed, not activated). Types:
+    - pathogen-variant-surveillance/scripts/lapis_client.py
+    - pathogen-variant-surveillance/scripts/mutation_profile.py
+    - pathogen-variant-surveillance/scripts/resolve_lineage.py
+    - pathogen-variant-surveillance/scripts/lineage_prevalence.py
+    - pathogen-variant-surveillance/scripts/reporting_lag.py
+    - iso-standards-readiness/scripts/_catalog.py
+    - iso-standards-readiness/scripts/validate_evidence_manifest.py
+    - iso-standards-readiness/scripts/audit_document_records.py
+    - iso-standards-readiness/scripts/check_traceability.py
+    - iso-standards-readiness/scripts/check_supplier_controls.py
+    - iso-standards-readiness/scripts/_common.py
+    - iso-standards-readiness/scripts/gap_analyzer.py
+    - iso-standards-readiness/scripts/check_qmsr_transition.py
+    - iso-standards-readiness/scripts/validate_scope_intake.py
+    - iso-standards-readiness/scripts/check_capa.py
+    - scikit-survival/scripts/validate_survival_csv.py
+    - scikit-survival/scripts/train_survival_model.py
+    - scikit-survival/scripts/_common.py
+    - scikit-survival/scripts/evaluate_survival_metrics.py
+    - scikit-survival/scripts/competing_risk_cif.py
+    - scikit-survival/scripts/model_report.py
+    - qiskit/scripts/check_environment.py
+    - qiskit/scripts/run_local_primitives.py
+    - qiskit/scripts/inspect_runtime.py
+    - scientific-brainstorming/scripts/session_scaffold.py
+    - scientific-brainstorming/scripts/_common.py
+    - scientific-brainstorming/scripts/validate_register.py
+    - scientific-brainstorming/scripts/evaluate_matrix.py
+    - pymc/scripts/model_comparison.py
+    - pymc/scripts/model_diagnostics.py
+    - pymc/assets/hierarchical_model_template.py
+    - pymc/assets/linear_regression_template.py
+    - pkpd-modeling/scripts/bioequivalence.py
+    - pkpd-modeling/scripts/simulate_regimen.py
+    - pkpd-modeling/scripts/allometry_and_fih.py
+    - pkpd-modeling/scripts/_common.py
+    - pkpd-modeling/scripts/ddi_static.py
+    - pkpd-modeling/scripts/tdm_bayes.py
+    - pkpd-modeling/scripts/check_popk_dataset.py
+    - pkpd-modeling/scripts/nca.py
+- **rust-skills--rust-skills** — from `https://github.com/leonardomso/rust-skills`: 5 executable/hook file(s) quarantined (not installed, not activated). Types:
+    - checks/gen.py
+    - checks/validate.py
+    - checks/check.sh
+    - checks/analyze.py
+    - checks/gen_index.py
 - **addyosmani-eng--addyosmani-agent-skills** — from `https://github.com/addyosmani/agent-skills`: 1 executable/hook file(s) quarantined (not installed, not activated). Types:
     - idea-refine/scripts/idea-refine.sh
 - **superpowers--superpowers** — from `https://github.com/obra/superpowers`: 7 executable/hook file(s) quarantined (not installed, not activated). Types:
@@ -406,3 +475,140 @@ _These files live at the top level of a caution repo, outside the `skills/` subt
     - plugins/vibekit/.claude-plugin/plugin.json
     - .claude-plugin/marketplace.json
     - .claude-plugin/plugin.json
+- **kdense (repo-root installers/hooks)** — https://github.com/K-Dense-AI/scientific-agent-skills: 137 file(s) OUTSIDE the installed `skills/` subtree, copied to `_quarantine/kdense--repo-root/`. Present in the `.sources` clone only; never installed into `skills/`:
+    - scan_pr_skills.py
+    - tests/pathogen-variant-surveillance/test_scripts.py
+    - tests/iso-standards-readiness/test_scripts.py
+    - tests/scikit-survival/test_scripts.py
+    - tests/conftest.py
+    - tests/qiskit/test_scripts.py
+    - tests/scientific-brainstorming/test_scripts.py
+    - tests/pymc/test_scripts.py
+    - tests/pkpd-modeling/test_scripts.py
+    - tests/research-lookup/test_research_lookup.py
+    - tests/shap/test_scripts.py
+    - tests/onekgpd/test_scripts.py
+    - tests/get-available-resources/test_scripts.py
+    - tests/exploratory-data-analysis/test_static.py
+    - tests/exploratory-data-analysis/test_scripts.py
+    - tests/experimental-design/test_scripts.py
+    - tests/scientific-schematics/test_scripts.py
+    - tests/arboreto/test_scripts.py
+    - tests/bids/test_scripts.py
+    - tests/geniml/test_scripts.py
+    - tests/geopandas/test_static.py
+    - tests/geopandas/test_scripts.py
+    - tests/deeptools/test_scripts.py
+    - tests/protocolsio-integration/test_scripts.py
+    - tests/analytical-method-validation/test_scripts.py
+    - tests/medchem/test_scripts.py
+    - tests/fluidsim/test_static.py
+    - tests/fluidsim/test_scripts.py
+    - tests/pymatgen/test_static.py
+    - tests/pymatgen/test_scripts.py
+    - tests/pathway-enrichment/test_scripts.py
+    - tests/citation-management/test_scripts.py
+    - tests/pydicom/test_static.py
+    - tests/pydicom/test_scripts.py
+    - tests/markitdown/test_scripts.py
+    - tests/openpiv/test_scripts.py
+    - tests/pytdc/test_scripts.py
+    - tests/xlsx/test_scripts.py
+    - tests/pdf/test_scripts.py
+    - tests/exa-search/test_exa_search.py
+    - tests/autoskill/conftest.py
+    - tests/autoskill/test_redact.py
+    - tests/autoskill/test_fetch_window.py
+    - tests/autoskill/test_promote.py
+    - tests/autoskill/test_run.py
+    - tests/autoskill/smoke_lmstudio.py
+    - tests/autoskill/test_synthesize.py
+    - tests/autoskill/test_doctor.py
+    - tests/autoskill/test_match_skills.py
+    - tests/autoskill/test_cluster.py
+    - tests/autoskill/test_backends.py
+    - tests/autoskill/test_e2e.py
+    - tests/autoskill/test_cli.py
+    - tests/timesfm-forecasting/test_scripts.py
+    - tests/opentrons-integration/test_scripts.py
+    - tests/infographics/test_scripts.py
+    - tests/_meta/test_repo_contract.py
+    - tests/_contract/office.py
+    - tests/_contract/__init__.py
+    - tests/_contract/cli.py
+- **lean4 (repo-root installers/hooks)** — https://github.com/cameronfreer/lean4-skills: 88 file(s) OUTSIDE the installed `plugins/lean4/skills/lean4/` subtree, copied to `_quarantine/lean4--repo-root/`. Present in the `.sources` clone only; never installed into `skills/`:
+    - plugins/lean4-contribute/tools/lint_contribute.sh
+    - plugins/lean4-contribute/.claude-plugin/plugin.json
+    - plugins/lean4/tools/lint_runtime_portability.sh
+    - plugins/lean4/tools/smoke_snippets.sh
+    - plugins/lean4/tools/release_notes.sh
+    - plugins/lean4/tools/test_contracts.sh
+    - plugins/lean4/tools/lint_docs.sh
+    - plugins/lean4/tests/test_cycle_tracker.sh
+    - plugins/lean4/tests/test_validate_user_prompt.sh
+    - plugins/lean4/tests/test_bootstrap_env.sh
+    - plugins/lean4/tests/test_unused_declarations.sh
+    - plugins/lean4/tests/test_disprove_target_resolve.sh
+    - plugins/lean4/tests/test_disprove_methods.py
+    - plugins/lean4/tests/test_disprove_target_profile.sh
+    - plugins/lean4/tests/test_bash3_smoke.sh
+    - plugins/lean4/tests/test_disprove_emit_artifact.sh
+    - plugins/lean4/tests/test_lint_docs.sh
+    - plugins/lean4/tests/test_check_axioms_inline.sh
+    - plugins/lean4/tests/test_preflight_env.sh
+    - plugins/lean4/tests/command_args/test_parser_formalize.py
+    - plugins/lean4/tests/command_args/_doc_sync_forward_exclusions.py
+    - plugins/lean4/tests/command_args/test_parser_disprove.py
+    - plugins/lean4/tests/command_args/__init__.py
+    - plugins/lean4/tests/command_args/test_parser_autoformalize.py
+    - plugins/lean4/tests/command_args/_doc_sync_allowlist.py
+    - plugins/lean4/tests/command_args/test_parser_common.py
+    - plugins/lean4/tests/command_args/test_parser_prove.py
+    - plugins/lean4/tests/command_args/test_parse_command_args_cli.py
+    - plugins/lean4/tests/command_args/test_formatter.py
+    - plugins/lean4/tests/command_args/test_parser_learn.py
+    - plugins/lean4/tests/command_args/test_hook_block_roundtrip.py
+    - plugins/lean4/tests/command_args/test_parser_autoprove.py
+    - plugins/lean4/tests/command_args/test_parser_draft.py
+    - plugins/lean4/tests/test_release_notes.sh
+    - plugins/lean4/tests/test_disprove_flow.sh
+    - plugins/lean4/tests/test_lint_runtime_portability.sh
+    - plugins/lean4/tests/test_wrapper_runtime.sh
+    - plugins/lean4/tests/test_guardrails.sh
+    - plugins/lean4/tests/test_disprove_artifact_txn.sh
+    - plugins/lean4/tests/test_disprove_method_probe.py
+    - plugins/lean4/hooks/guardrails.sh
+    - plugins/lean4/hooks/validate_user_prompt.py
+    - plugins/lean4/hooks/bootstrap.sh
+    - plugins/lean4/hooks/hooks.json
+    - plugins/lean4/.claude-plugin/plugin.json
+    - plugins/lean4/lib/disprove_methods.py
+    - plugins/lean4/lib/scripts/parse_command_args.py
+    - plugins/lean4/lib/scripts/cycle_tracker.sh
+    - plugins/lean4/lib/scripts/disprove_method_probe.py
+    - plugins/lean4/lib/scripts/try_exact_at_step.py
+    - plugins/lean4/lib/scripts/find_instances.sh
+    - plugins/lean4/lib/scripts/tests/test_sorry_analyzer.py
+    - plugins/lean4/lib/scripts/tests/test_ordering.py
+    - plugins/lean4/lib/scripts/unused_declarations.sh
+    - plugins/lean4/lib/scripts/disprove_emit_artifact.py
+    - plugins/lean4/lib/scripts/search_mathlib.sh
+    - plugins/lean4/lib/scripts/solver_cascade.py
+    - plugins/lean4/lib/scripts/find_exact_candidates.py
+    - plugins/lean4/lib/scripts/preflight_env.sh
+    - plugins/lean4/lib/scripts/disprove_artifact_txn.py
+- **terraform-skill (repo-root installers/hooks)** — https://github.com/antonbabenko/terraform-skill: 3 file(s) OUTSIDE the installed `skills/` subtree, copied to `_quarantine/terraform-skill--repo-root/`. Present in the `.sources` clone only; never installed into `skills/`:
+    - .github/release/build-power.js
+    - .github/release/pre-commit.js
+    - .codex-plugin/plugin.json
+- **golang-skills (repo-root installers/hooks)** — https://github.com/samber/cc-skills-golang: 3 file(s) OUTSIDE the installed `skills/` subtree, copied to `_quarantine/golang-skills--repo-root/`. Present in the `.sources` clone only; never installed into `skills/`:
+    - .cursor-plugin/plugin.json
+    - .claude-plugin/plugin.json
+    - clawhub-publish.sh
+- **blender-ra100 (repo-root installers/hooks)** — https://github.com/ra100/blender-claude-plugin: 2 file(s) OUTSIDE the installed `skills/` subtree, copied to `_quarantine/blender-ra100--repo-root/`. Present in the `.sources` clone only; never installed into `skills/`:
+    - .claude-plugin/marketplace.json
+    - .claude-plugin/plugin.json
+
+## License exclusions (K-Dense pack)
+
+_13 skill(s) pruned from `20-research-science/scientific-skills` for license reasons (GPL/copyleft, proprietary, Anthropic-vendored duplicates, unknown, CC-NC). List and rationale: `scripts/kdense-exclude.txt`. The remaining skills are MIT/BSD/Apache or governed by the repo's top-level MIT._

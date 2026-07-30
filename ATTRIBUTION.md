@@ -4,7 +4,7 @@ _Generated 2026-07-30. Every skill in this library is the work of its original a
 
 **This library is a curated index + installer. It claims no ownership of the skills themselves.** The original contributions here are the `scripts/`, `manifest.txt`, and the generated documentation — everything under `skills/` belongs to the authors credited below.
 
-## Sources (36)
+## Sources (44)
 
 | Source repo | Author | License |
 |---|---|---|
@@ -13,8 +13,11 @@ _Generated 2026-07-30. Every skill in this library is the work of its original a
 | [adevra/unity-shader-agent-skills](https://github.com/adevra/unity-shader-agent-skills) | Anil Devran (adevra) | MIT |
 | [anthropics/skills](https://github.com/anthropics/skills) | Anthropic | Anthropic (see repo; no root LICENSE file — per-skill terms) |
 | [AvdLee/SwiftUI-Agent-Skill](https://github.com/AvdLee/SwiftUI-Agent-Skill) | Antoine van der Lee (SwiftLee) & Omar Elsayed | MIT |
+| [antonbabenko/terraform-skill](https://github.com/antonbabenko/terraform-skill) | Anton Babenko (AWS Community Hero, terraform-aws-modules) | Apache-2.0 |
+| [mitsuhiko/agent-stuff](https://github.com/mitsuhiko/agent-stuff) | Armin Ronacher (mitsuhiko, creator of Flask/Jinja2) | Apache-2.0 |
 | [boraoztunc/skills](https://github.com/boraoztunc/skills) | Bora Oztunc | MIT (LICENSE-mengto-skills) / README+GitHub inconsistent — verify |
 | [callstackincubator/agent-skills](https://github.com/callstackincubator/agent-skills) | Callstack | MIT |
+| [cameronfreer/lean4-skills](https://github.com/cameronfreer/lean4-skills) | Cameron Freer (cfreer.org) | MIT |
 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | Corey Haines | MIT |
 | [dannyjpwilliams/ui-sound-design-skill](https://github.com/dannyjpwilliams/ui-sound-design-skill) | Danny Williams (dannyjpwilliams) | MIT |
 | [dart-lang/skills](https://github.com/dart-lang/skills) | Dart team (dart-lang, official) | BSD-3-Clause |
@@ -32,14 +35,19 @@ _Generated 2026-07-30. Every skill in this library is the work of its original a
 | [jame581/GodotPrompter](https://github.com/jame581/GodotPrompter) | jame581 | MIT |
 | [obra/superpowers](https://github.com/obra/superpowers) | Jesse Vincent (obra) | MIT |
 | [ibelick/ui-skills](https://github.com/ibelick/ui-skills) | Julien Thibeaut (ibelick) | MIT |
+| [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | K-Dense Inc. | MIT (top-level) — PER-SKILL licenses vary (see each SKILL.md license: field) |
+| [leonardomso/rust-skills](https://github.com/leonardomso/rust-skills) | Leonardo Maldonado (leonardomso, 33-js-concepts) | MIT |
 | [lottiefiles/motion-design-skill](https://github.com/lottiefiles/motion-design-skill) | LottieFiles | MIT |
 | [majidmanzarpour/threejs-game-skills](https://github.com/majidmanzarpour/threejs-game-skills) | majidmanzarpour | MIT |
 | [mattpocock/skills](https://github.com/mattpocock/skills) | Matt Pocock (Total TypeScript) | MIT |
 | [ilikescience/design-tokens-skill](https://github.com/ilikescience/design-tokens-skill) | Matt Strom-Awn (ilikescience) | MIT |
 | [MengTo/Skills](https://github.com/MengTo/Skills) | Meng To (Design+Code) | MIT |
+| [flowful-ai/cad-skill](https://github.com/flowful-ai/cad-skill) | Nicolas Chourrout (Flowful.ai) | PolyForm Noncommercial 1.0.0 — NON-OSI: COMMERCIAL USE PROHIBITED |
 | [twostraws/SwiftUI-Agent-Skill](https://github.com/twostraws/SwiftUI-Agent-Skill) | Paul Hudson (Hacking with Swift) | MIT |
+| [ra100/blender-claude-plugin](https://github.com/ra100/blender-claude-plugin) | ra100 | MIT |
 | [rampstackco/claude-skills](https://github.com/rampstackco/claude-skills) | RampStack | MIT |
 | [Randroids-Dojo/skills](https://github.com/Randroids-Dojo/skills) | Randroids Dojo | MIT |
+| [samber/cc-skills-golang](https://github.com/samber/cc-skills-golang) | Samuel Berthe (samber, author of lo/mo/do) | MIT |
 | [scottstts/Threejs-Awesome-Graphics-Agent-Skills](https://github.com/scottstts/Threejs-Awesome-Graphics-Agent-Skills) | scottstts | MIT |
 | [getsentry/skills](https://github.com/getsentry/skills) | Sentry (getsentry, official) | Apache-2.0 |
 | [Unity-Technologies/skills](https://github.com/Unity-Technologies/skills) | Unity Technologies (official) | Unity Companion License (UCL) — NON-OSI: use restricted to Unity-engine projects; no competitive analysis |

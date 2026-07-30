@@ -58,6 +58,29 @@ quarantine_repo_root mattpocock       skills/engineering
 quarantine_repo_root flutter-official skills
 quarantine_repo_root godot-dojo       plugins/godot
 quarantine_repo_root unity-official   skills
+quarantine_repo_root kdense           skills
+quarantine_repo_root lean4            plugins/lean4/skills/lean4
+quarantine_repo_root terraform-skill  skills
+quarantine_repo_root golang-skills    skills
+quarantine_repo_root blender-ra100    skills
+
+# license-based pruning of the K-Dense pack (see scripts/kdense-exclude.txt)
+KD="$LIB/skills/20-research-science/scientific-skills"
+if [ -d "$KD" ] && [ -f "$LIB/scripts/kdense-exclude.txt" ]; then
+  pruned=0
+  while IFS= read -r name; do
+    name="${name%%#*}"; name="$(echo "$name" | tr -d '[:space:]')"
+    [ -z "$name" ] && continue
+    if [ -d "$KD/$name" ]; then rm -rf "$KD/$name"; pruned=$((pruned+1)); fi
+  done < "$LIB/scripts/kdense-exclude.txt"
+  {
+    echo
+    echo "## License exclusions (K-Dense pack)"
+    echo
+    echo "_${pruned} skill(s) pruned from \`20-research-science/scientific-skills\` for license reasons (GPL/copyleft, proprietary, Anthropic-vendored duplicates, unknown, CC-NC). List and rationale: \`scripts/kdense-exclude.txt\`. The remaining skills are MIT/BSD/Apache or governed by the repo's top-level MIT._"
+  } >> "$LIB/QUARANTINE.md"
+  echo "  kdense: pruned $pruned license-excluded skills"
+fi
 
 # tidy: if MISSING.md has no entries, say so
 if ! grep -q '^- ' "$LIB/MISSING.md"; then

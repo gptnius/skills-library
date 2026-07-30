@@ -24,9 +24,11 @@ CATEGORIES = {
  "13-games": "Games — web/native/mobile game dev, game feel, generative (packs; mostly per-project)",
  "14-style-directions": "Style Directions — reusable Meng To stylecards",
  "15-workflow-capture": "Workflow Capture — inspiration → prompt pipelines",
- "16-engineering": "Engineering — software-engineering lifecycle: code review, TDD, debugging, git, docs, architecture, CI/CD",
+ "16-engineering": "Engineering — SWE lifecycle: code review, TDD, debugging, git, docs, architecture, CI/CD, Terraform, Go, Rust",
  "17-ai-llm-eng": "AI / LLM Engineering — prompt optimization, evals, context engineering",
  "18-security": "Security Engineering — secure coding, security review, skill & supply-chain scanning",
+ "19-3d-cad": "3D Modeling & CAD — Blender, OpenSCAD/code-CAD, CadQuery, 3D-printing prep",
+ "20-research-science": "Research & Science — scientific computing, database toolchains, formal math (Lean 4)",
 }
 
 # Hand-written descriptions for multi-skill packs (which have no single root SKILL.md).
@@ -50,6 +52,9 @@ PACKS = {
  "dart-official": ("Dart team (official) — 12 Dart skills: unit tests, CLI apps, coverage, runtime errors, mocks, static analysis, FFI/ffigen, pattern matching. Clean, BSD-3.", False),
  "unity-official": ("Unity Technologies (official) — Unity skills incl. implement-in-app-purchases (IAP) and levelplay-unity-integration (ad mediation), new-unity-project, unity-cli, package management. ⚠ Unity Companion License (non-OSI): use restricted to Unity-engine projects.", True),
  "unity-shaders": ("Anil Devran — 7 mobile-GPU Unity shader skills: mobile-shader-optimization (TBDR/Mali/Adreno), post-processing, URP HLSL templates, WebGL constraints, texture packing/variant stripping. Clean MIT markdown; one-shot snapshot (unmaintained).", False),
+ "blender": ("ra100 — 8 Blender 5.x skills: geometry nodes, shader nodes, compositing, Python bpy scripting, animation/rigging, modeling/modifiers, physics sim, rendering. Clean MIT markdown; low-adoption single maintainer.", False),
+ "scientific-skills": ("K-Dense Inc. — 145 scientific skills (license-pruned from 158): bioinformatics/genomics, cheminformatics/drug discovery, clinical research, ML/AI, materials/chemistry/physics, data analysis (sympy, matplotlib, polars, astropy), scientific communication. ⚠ per-skill licenses vary (see each SKILL.md); 665 Python scripts quarantined — DB/toolchain integrations need per-project re-enable after review.", True),
+ "golang": ("Samuel Berthe (samber, author of lo) — 46 Go skills: code style, testing, concurrency, context, database, DI, observability, security, benchmarks, CI. MIT.", True),
 }
 
 def parse_frontmatter(path):

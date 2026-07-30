@@ -45,6 +45,20 @@ unity-official    https://github.com/Unity-Technologies/skills                  
 unity-shaders     https://github.com/adevra/unity-shader-agent-skills            PUBLIC-OK
 godot-dojo        https://github.com/Randroids-Dojo/skills                       PUBLIC-OK
 
+# ---- 3D modeling & CAD (added 2026-07-30, research pass 3b) ----
+blender-ra100     https://github.com/ra100/blender-claude-plugin                 PUBLIC-OK
+agent-stuff       https://github.com/mitsuhiko/agent-stuff                       PUBLIC-OK
+cad-skill         https://github.com/flowful-ai/cad-skill                        LICENSE-RESTRICTED
+
+# ---- research / science / math (added 2026-07-30, research pass 3b) ----
+kdense            https://github.com/K-Dense-AI/scientific-agent-skills          PUBLIC-OK
+lean4             https://github.com/cameronfreer/lean4-skills                   PUBLIC-OK
+
+# ---- devops + languages (added 2026-07-30, research pass 3b) ----
+terraform-skill   https://github.com/antonbabenko/terraform-skill                PUBLIC-OK
+golang-skills     https://github.com/samber/cc-skills-golang                     PUBLIC-OK
+rust-skills       https://github.com/leonardomso/rust-skills                     PUBLIC-OK
+
 # ---- software engineering (added 2026-07-30; all caution except karpathy) ----
 karpathy          https://github.com/multica-ai/andrej-karpathy-skills           LICENSE-UNCONFIRMED
 addyosmani-eng    https://github.com/addyosmani/agent-skills                      PUBLIC-OK

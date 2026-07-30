@@ -1,0 +1,26 @@
+# kdense-exclude.txt — K-Dense skills PRUNED from the installed pack for license reasons.
+# Applied by install.sh after the pack copy. One dir name per line (relative to the pack's skills/).
+# Reasons recorded here; the rest of the pack is permissive (MIT/BSD/Apache) or governed by top-level MIT.
+
+# GPL / copyleft (kept out to keep the library permissive-clean)
+bioservices
+cobrapy
+etetoolkit
+
+# Proprietary / Anthropic-vendored document skills (duplicate our anthropic source's terms)
+docx
+pdf
+pptx
+pptx-posters
+xlsx
+
+# Proprietary (API key required)
+rowan
+
+# License explicitly "Unknown"
+glycoengineering
+phylogenetics
+primekg
+
+# CC BY-NC-SA 4.0 (noncommercial share-alike)
+what-if-oracle

@@ -1,8 +1,8 @@
 {
   "generated": "2026-07-30",
   "library_path": "~/Desktop/Skills-Library",
-  "total_top_level_entries": 163,
-  "total_skills": 479,
+  "total_top_level_entries": 171,
+  "total_skills": 683,
   "categories": [
     {
       "key": "00-direction",
@@ -86,8 +86,8 @@
     },
     {
       "key": "16-engineering",
-      "title": "Engineering — software-engineering lifecycle: code review, TDD, debugging, git, docs, architecture, CI/CD",
-      "skill_count": 59
+      "title": "Engineering — SWE lifecycle: code review, TDD, debugging, git, docs, architecture, CI/CD, Terraform, Go, Rust",
+      "skill_count": 107
     },
     {
       "key": "17-ai-llm-eng",
@@ -98,6 +98,16 @@
       "key": "18-security",
       "title": "Security Engineering — secure coding, security review, skill & supply-chain scanning",
       "skill_count": 3
+    },
+    {
+      "key": "19-3d-cad",
+      "title": "3D Modeling & CAD — Blender, OpenSCAD/code-CAD, CadQuery, 3D-printing prep",
+      "skill_count": 10
+    },
+    {
+      "key": "20-research-science",
+      "title": "Research & Science — scientific computing, database toolchains, formal math (Lean 4)",
+      "skill_count": 146
     }
   ],
   "always_on": [
@@ -2151,6 +2161,19 @@
       "purpose": "Find bugs, security vulnerabilities, and code quality issues in local branch changes. Use when asked to review changes, find bugs, security review, or audit code on the current branch."
     },
     {
+      "name": "golang",
+      "category": "16-engineering",
+      "kind": "pack",
+      "path": "skills/16-engineering/golang",
+      "skill_count": 46,
+      "source_url": "https://github.com/samber/cc-skills-golang",
+      "license": "MIT",
+      "author": "Samuel Berthe (samber, author of lo/mo/do)",
+      "always_on": false,
+      "caution": true,
+      "purpose": "Samuel Berthe (samber, author of lo) — 46 Go skills: code style, testing, concurrency, context, database, DI, observability, security, benchmarks, CI. MIT."
+    },
+    {
       "name": "karpathy-guidelines",
       "category": "16-engineering",
       "kind": "skill",
@@ -2177,6 +2200,19 @@
       "purpose": "Matt Pocock (Total TypeScript) — engineering skills: code-review, tdd, diagnosing-bugs, domain-modeling, codebase-design, improve-codebase-architecture, resolving-merge-conflicts, to-spec, to-tickets, triage. Ships shell scripts incl. a git-guardrail hook (quarantined)."
     },
     {
+      "name": "rust-skills",
+      "category": "16-engineering",
+      "kind": "skill",
+      "path": "skills/16-engineering/rust-skills",
+      "skill_count": 1,
+      "source_url": "https://github.com/leonardomso/rust-skills",
+      "license": "MIT",
+      "author": "Leonardo Maldonado (leonardomso, 33-js-concepts)",
+      "always_on": false,
+      "caution": false,
+      "purpose": "Comprehensive Rust coding guidelines with 265 rules across 26 categories. Use when writing, reviewing, or refactoring Rust code. Covers ownership, error handling, async patterns, concurrency, unsafe code, API design, memory optimization, performance, numeric safety, conversions, serde, pattern matching, macros, closures, observability, testing, and common anti-patterns. Invoke with /rust-skills."
+    },
+    {
       "name": "superpowers",
       "category": "16-engineering",
       "kind": "pack",
@@ -2188,6 +2224,19 @@
       "always_on": false,
       "caution": true,
       "purpose": "Jesse Vincent (obra) — the most-starred Claude skills repo: TDD, systematic-debugging, requesting/receiving code-review, git-worktrees, plan writing/execution, subagent-driven development, verification-before-completion. Ships 38 shell scripts + SessionStart hook + per-harness plugin dirs (quarantined)."
+    },
+    {
+      "name": "terraform",
+      "category": "16-engineering",
+      "kind": "skill",
+      "path": "skills/16-engineering/terraform",
+      "skill_count": 1,
+      "source_url": "https://github.com/antonbabenko/terraform-skill",
+      "license": "Apache-2.0",
+      "author": "Anton Babenko (AWS Community Hero, terraform-aws-modules)",
+      "always_on": false,
+      "caution": false,
+      "purpose": "Use when writing, reviewing, or debugging Terraform/OpenTofu modules, tests, CI, scans, or state ops - diagnoses failure mode (identity churn, secrets, blast radius, CI drift, state corruption) with version-aware guards."
     },
     {
       "name": "prompt-optimizer",
@@ -2240,6 +2289,71 @@
       "always_on": false,
       "caution": false,
       "purpose": "Scan agent skills for security issues. Use when asked to \"scan a skill\", \"audit a skill\", \"review skill security\", \"check skill for injection\", \"validate SKILL.md\", or assess whether an agent skill is safe to install. Checks for prompt injection, malicious scripts, excessive permissions, secret exposure, and supply chain risks."
+    },
+    {
+      "name": "blender",
+      "category": "19-3d-cad",
+      "kind": "pack",
+      "path": "skills/19-3d-cad/blender",
+      "skill_count": 8,
+      "source_url": "https://github.com/ra100/blender-claude-plugin",
+      "license": "MIT",
+      "author": "ra100",
+      "always_on": false,
+      "caution": false,
+      "purpose": "ra100 — 8 Blender 5.x skills: geometry nodes, shader nodes, compositing, Python bpy scripting, animation/rigging, modeling/modifiers, physics sim, rendering. Clean MIT markdown; low-adoption single maintainer."
+    },
+    {
+      "name": "cadquery-noncommercial",
+      "category": "19-3d-cad",
+      "kind": "skill",
+      "path": "skills/19-3d-cad/cadquery-noncommercial",
+      "skill_count": 1,
+      "source_url": "https://github.com/flowful-ai/cad-skill",
+      "license": "PolyForm Noncommercial 1.0.0 — NON-OSI: COMMERCIAL USE PROHIBITED",
+      "author": "Nicolas Chourrout (Flowful.ai)",
+      "always_on": false,
+      "caution": false,
+      "purpose": "Use this skill when the user wants to design a 3D-printable physical object they intend to manufacture. Triggers: any mention of '3D print', 'STL', 'parametric model', 'Gridfinity', 'enclosure', 'bracket', 'mount', 'case', 'housing', 'CadQuery', 'OpenSCAD', or a specific FDM printer (Bambu Lab, Prusa, Ender); questions about print-friendly design, snap-fits, tolerances, or wall thickness; and requests for functional parts like Arduino enclosures, cable organizers, wall mounts, adapters, or mechanical components. Also fires when the user describes a real physical object to make, provided the goal is to manufacture it. Do NOT use for: 3D rendering, animation, game assets, digital-only art, photogrammetry, sculpting, editing an existing STL file the user already has, or any 3D work that is not heading toward a printer."
+    },
+    {
+      "name": "openscad",
+      "category": "19-3d-cad",
+      "kind": "skill",
+      "path": "skills/19-3d-cad/openscad",
+      "skill_count": 1,
+      "source_url": "https://github.com/mitsuhiko/agent-stuff",
+      "license": "Apache-2.0",
+      "author": "Armin Ronacher (mitsuhiko, creator of Flask/Jinja2)",
+      "always_on": false,
+      "caution": false,
+      "purpose": "Create and render OpenSCAD 3D models. Generate preview images from multiple angles, extract customizable parameters, validate syntax, and export STL files for 3D printing platforms like MakerWorld."
+    },
+    {
+      "name": "lean4",
+      "category": "20-research-science",
+      "kind": "skill",
+      "path": "skills/20-research-science/lean4",
+      "skill_count": 1,
+      "source_url": "https://github.com/cameronfreer/lean4-skills",
+      "license": "MIT",
+      "author": "Cameron Freer (cfreer.org)",
+      "always_on": false,
+      "caution": false,
+      "purpose": "Use when editing .lean files, debugging Lean 4 builds (type mismatch, sorry, failed to synthesize instance, axiom warnings, lake build errors), searching mathlib for lemmas, formalizing mathematics in Lean, finding a counterexample to, refuting, or disproving a Lean statement, or learning Lean 4 concepts. Also trigger when the user asks for help with Lean 4, mathlib, or lakefile. Do NOT trigger for Coq/Rocq, Agda, Isabelle, HOL4, Mizar, Idris, Megalodon, or other non-Lean theorem provers."
+    },
+    {
+      "name": "scientific-skills",
+      "category": "20-research-science",
+      "kind": "pack",
+      "path": "skills/20-research-science/scientific-skills",
+      "skill_count": 145,
+      "source_url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "license": "MIT (top-level) — PER-SKILL licenses vary (see each SKILL.md license: field)",
+      "author": "K-Dense Inc.",
+      "always_on": false,
+      "caution": true,
+      "purpose": "K-Dense Inc. — 145 scientific skills (license-pruned from 158): bioinformatics/genomics, cheminformatics/drug discovery, clinical research, ML/AI, materials/chemistry/physics, data analysis (sympy, matplotlib, polars, astropy), scientific communication. ⚠ per-skill licenses vary (see each SKILL.md); 665 Python scripts quarantined — DB/toolchain integrations need per-project re-enable after review."
     }
   ]
 }

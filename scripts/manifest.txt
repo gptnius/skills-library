@@ -176,6 +176,20 @@ pack godotprompter    skills                                      13-games  godo
 pack phaser4          skills                                      13-games  phaser4
 pack threejs-game     skills                                      13-games  threejs-game
 
+# ===== 19-3d-cad (3D modeling & CAD; research pass 3b) =====
+pack blender-ra100    skills                                         19-3d-cad  blender
+one  agent-stuff      skills/openscad                                19-3d-cad  openscad
+one  cad-skill        .                                              19-3d-cad  cadquery-noncommercial
+
+# ===== 20-research-science (research / science / math; research pass 3b) =====
+pack kdense           skills                                         20-research-science  scientific-skills
+one  lean4            plugins/lean4/skills/lean4                     20-research-science  lean4
+
+# ===== 16-engineering: DevOps + language additions (research pass 3b) =====
+one  terraform-skill  skills/terraform-skill                         16-engineering  terraform
+pack golang-skills    skills                                         16-engineering  golang
+one  rust-skills      .                                              16-engineering  rust-skills
+
 # ===== 14-style-directions (reusable Meng To stylecards) =====
 one  mengto  agent-skills/web-design/dark-glass-clean-layout      14-style-directions  dark-glass-clean-layout
 one  mengto  agent-skills/web-design/glass-dark-ui                14-style-directions  glass-dark-ui
