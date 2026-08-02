@@ -82,6 +82,28 @@ if [ -d "$KD" ] && [ -f "$LIB/scripts/kdense-exclude.txt" ]; then
   echo "  kdense: pruned $pruned license-excluded skills"
 fi
 
+# original skills: first-party work, tracked in git (not pulled from .sources/)
+if [ -d "$LIB/original-skills" ]; then
+  n=0
+  for d in "$LIB"/original-skills/*/; do
+    [ -f "$d/SKILL.md" ] || continue
+    name="$(basename "$d")"
+    mkdir -p "$LIB/skills/22-original/$name"
+    rsync -a --exclude='.DS_Store' "$d" "$LIB/skills/22-original/$name/" 2>/dev/null || true
+    {
+      echo "# Source"
+      echo "- Repo: this library (first-party original work)"
+      echo "- Path in repo: original-skills/$name"
+      echo "- Author: Michael McLaughlin (gptnius)"
+      echo "- License: MIT (same as this repo's original work)"
+      echo "- Pulled: $TODAY"
+    } > "$LIB/skills/22-original/$name/SOURCE.md"
+    n=$((n+1))
+    echo "  OK    22-original/$name"
+  done
+  [ "$n" -gt 0 ] && echo "  original-skills: installed $n first-party skill(s)"
+fi
+
 # tidy: if MISSING.md has no entries, say so
 if ! grep -q '^- ' "$LIB/MISSING.md"; then
   echo "_None — every manifest entry was found._" >> "$LIB/MISSING.md"

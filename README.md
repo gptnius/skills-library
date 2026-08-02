@@ -4,7 +4,7 @@ A curated, documented, locally-accessible library of **AI agent skills** (`SKILL
 
 Works with any agent that reads the `SKILL.md` format — Claude Code, Codex, Cursor.
 
-**Built 2026-07-30 · 732 skills · 220 top-level entries · 22 categories · 46 vetted source repos.**
+**Built 2026-07-30 · 733 skills · 221 top-level entries · 23 categories · 46 vetted source repos.**
 
 Every skill was pulled from a named source repo, security-reviewed, and stripped of executable code before install. See [`INDEX.md`](INDEX.md) for the full catalog and [`WORKFLOW.md`](WORKFLOW.md) for which skill to reach for at each stage.
 
@@ -49,6 +49,7 @@ Claude Code only discovers skills as **immediate** subdirectories of `~/.claude/
 | `19` | 3d-cad | Blender, OpenSCAD/code-CAD, CadQuery, 3D-printing prep |
 | `20` | research-science | Scientific computing, database toolchains, formal math (Lean 4) |
 | `21` | marketing | Organic/social, content strategy, SEO depth, launch, analytics |
+| `22` | original | First-party skills written for this library (source: `original-skills/`) |
 
 ---
 

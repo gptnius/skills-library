@@ -1,6 +1,6 @@
 # Quarantine
 
-_Generated 2026-07-30. Skills whose source directory shipped executable code or agent hooks. Only the **markdown + reference material** was installed into `skills/`; every executable/hook file below was copied to `_quarantine/` and is **never symlinked or activated**._
+_Generated 2026-08-02. Skills whose source directory shipped executable code or agent hooks. Only the **markdown + reference material** was installed into `skills/`; every executable/hook file below was copied to `_quarantine/` and is **never symlinked or activated**._
 
 > To use a quarantined script, read it yourself first, then run it manually. Agent hooks in particular can modify `.claude/`, `.cursor/`, and `.codex/` settings. Nothing here runs unless you run it.
 

@@ -37,3 +37,6 @@
 
 # --- engineering discipline (universal, tiny) ---
 16-engineering/karpathy-guidelines
+
+# --- original / first-party ---
+22-original/article-writing

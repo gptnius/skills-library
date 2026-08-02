@@ -30,6 +30,7 @@ CATEGORIES = {
  "19-3d-cad": "3D Modeling & CAD — Blender, OpenSCAD/code-CAD, CadQuery, 3D-printing prep",
  "20-research-science": "Research & Science — scientific computing, database toolchains, formal math (Lean 4)",
  "21-marketing": "Marketing & Growth — organic/social, content strategy, SEO depth, launch, analytics",
+ "22-original": "Original — first-party skills written for this library (source: original-skills/)",
 }
 
 # Hand-written descriptions for multi-skill packs (which have no single root SKILL.md).

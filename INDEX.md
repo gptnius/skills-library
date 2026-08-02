@@ -1,12 +1,12 @@
 # Skills-Library — Index
 
-_Generated 2026-07-30. 220 top-level entries · 732 total skills across 22 categories._
+_Generated 2026-08-02. 221 top-level entries · 733 total skills across 23 categories._
 
 ★ = part of the always-on core set (symlinked into `~/.claude/skills`). ⚠️ = source shipped executables/hooks (quarantined; see `QUARANTINE.md`). _(pack: N skills)_ = a multi-skill folder — browse it or activate individual skills per-project.
 
 > Packs are installed as one folder holding many skills; they are mostly **per-project** (see `WORKFLOW.md`). Game packs especially: activate only what a project needs via `scripts/project-activate.sh`.
 
-**Per-category counts:** direction 2 · copywriting 10 · fundamentals 7 · page-and-components 8 · motion 17 · effects 9 · 3d-webgl 38 · audio 1 · design-systems 10 · dataviz 1 · content-ux 12 · quality-audit 17 · mobile 81 · games 185 · style-directions 12 · workflow-capture 6 · engineering 107 · ai-llm-eng 9 · security 3 · 3d-cad 10 · research-science 146 · marketing 41
+**Per-category counts:** direction 2 · copywriting 10 · fundamentals 7 · page-and-components 8 · motion 17 · effects 9 · 3d-webgl 38 · audio 1 · design-systems 10 · dataviz 1 · content-ux 12 · quality-audit 17 · mobile 81 · games 185 · style-directions 12 · workflow-capture 6 · engineering 107 · ai-llm-eng 9 · security 3 · 3d-cad 10 · research-science 146 · marketing 41 · original 1
 
 ## Direction — aesthetic direction & structured prompting (invoked first)
 
@@ -293,3 +293,7 @@ _Generated 2026-07-30. 220 top-level entries · 732 total skills across 22 categ
 - **signup** — `coreyhaines31/marketingskills` — When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions "signup conversions," "registration friction," "signup form optimizat…
 - **site-architecture** — `coreyhaines31/marketingskills` — When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal linking. Also use when the user mentions "sitemap," "site map," "visual sitemap,…
 - **social** — `coreyhaines31/marketingskills` — When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms, or wants to do social listening and engageme…
+
+## Original — first-party skills written for this library (source: original-skills/)
+
+- ★ **article-writing** — `this library (first-party original work)` — Write long-form articles for X (Twitter) and similar platforms in Michael's house style. Use when the user asks to write, draft, revise, or plan an article, blog post, essay, or long-form piece, or as…

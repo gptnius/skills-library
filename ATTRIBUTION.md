@@ -1,10 +1,10 @@
 # Attribution & Credits
 
-_Generated 2026-07-30. Every skill in this library is the work of its original author, used under the license shown below and in each skill's `SOURCE.md`._
+_Generated 2026-08-02. Every skill in this library is the work of its original author, used under the license shown below and in each skill's `SOURCE.md`._
 
 **This library is a curated index + installer. It claims no ownership of the skills themselves.** The original contributions here are the `scripts/`, `manifest.txt`, and the generated documentation — everything under `skills/` belongs to the authors credited below.
 
-## Sources (45)
+## Sources (46)
 
 | Source repo | Author | License |
 |---|---|---|
@@ -43,6 +43,7 @@ _Generated 2026-07-30. Every skill in this library is the work of its original a
 | [mattpocock/skills](https://github.com/mattpocock/skills) | Matt Pocock (Total TypeScript) | MIT |
 | [ilikescience/design-tokens-skill](https://github.com/ilikescience/design-tokens-skill) | Matt Strom-Awn (ilikescience) | MIT |
 | [MengTo/Skills](https://github.com/MengTo/Skills) | Meng To (Design+Code) | MIT |
+| [this library (first-party original work)](this library (first-party original work)) | Michael McLaughlin (gptnius) | MIT (same as this repo's original work) |
 | [flowful-ai/cad-skill](https://github.com/flowful-ai/cad-skill) | Nicolas Chourrout (Flowful.ai) | PolyForm Noncommercial 1.0.0 — NON-OSI: COMMERCIAL USE PROHIBITED |
 | [twostraws/SwiftUI-Agent-Skill](https://github.com/twostraws/SwiftUI-Agent-Skill) | Paul Hudson (Hacking with Swift) | MIT |
 | [ra100/blender-claude-plugin](https://github.com/ra100/blender-claude-plugin) | ra100 | MIT |

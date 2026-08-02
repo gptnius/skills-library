@@ -37,6 +37,14 @@ Scripts self-locate (or set `SKILLS_LIB=/path/to/library`), so the clone can liv
 7. `bash scripts/install.sh && python3 scripts/gen-docs.py`
 8. Verify **0 executables** under `skills/` (command below), then commit. To make it global, add it to `scripts/always-on.txt` and re-run `activate.sh`.
 
+## Write your own skill (first-party)
+
+Original skills you author live in `original-skills/<name>/SKILL.md`. That directory **is** tracked by git (unlike `skills/`, which is a rebuilt artifact), so first-party work is version-controlled and published with the repo.
+
+1. `mkdir -p original-skills/<name>` and write `SKILL.md` with `name` + `description` frontmatter. The `skill-creator` skill (`17-ai-llm-eng/skill-creator`) is built for exactly this.
+2. `bash scripts/install.sh` copies it into `skills/22-original/<name>/` and writes its `SOURCE.md` automatically. No manifest or `sources.txt` entry needed.
+3. Add `22-original/<name>` to `scripts/always-on.txt` if it should load globally, then `scripts/activate.sh` and restart.
+
 ## Remove a skill
 
 1. Delete its line from `scripts/manifest.txt` (and its dir under `skills/`).
